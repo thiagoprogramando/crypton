@@ -198,7 +198,7 @@
 
                                                             <div align="center">
 
-                                                                <a href="{{ env('APP_URL') }}/forgout-password/{{ $data['toCode'] }}" target="_blank" class="v-button" style="box-sizing: border-box;display: inline-block;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #fa0202; background-color: #000000; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-family: arial,helvetica,sans-serif; font-size: 19px;font-weight: 400; ">
+                                                                <a href="{{ env('APP_URL') }}forgout-password/{{ $data['toCode'] }}" target="_blank" class="v-button" style="box-sizing: border-box;display: inline-block;text-decoration: none;-webkit-text-size-adjust: none;text-align: center;color: #fa0202; background-color: #000000; border-radius: 4px;-webkit-border-radius: 4px; -moz-border-radius: 4px; width:auto; max-width:100%; overflow-wrap: break-word; word-break: break-word; word-wrap:break-word; mso-border-alt: none;font-family: arial,helvetica,sans-serif; font-size: 19px;font-weight: 400; ">
                                                                     <span style="display:block;padding:11px;line-height:120%;"><span style="line-height: 22.8px;">{{ $data['toCode'] }}</span></span>
                                                                 </a>
 
