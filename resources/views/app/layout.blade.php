@@ -108,6 +108,7 @@
                             </a>
                         </li>
 
+                        @if (Auth::user()->type == 'Gestor')
                         <li class="menu-header small text-uppercase"><span class="menu-header-text">Gestão</span></li>
                         <li class="menu-item">
                             <a href="javascript:void(0);" class="menu-link menu-toggle">
@@ -166,6 +167,7 @@
                                 </li>
                             </ul>
                         </li>
+                        @endif
                     </ul>
                 </aside>
 
