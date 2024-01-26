@@ -39,13 +39,13 @@
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="./" style="padding: 10px 20px;">Azurita</a>
                             </li>
                             <li class="u-nav-item">
-                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="" style="padding: 10px 20px;">Investimentos</a>
+                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('investimentos') }}" style="padding: 10px 20px;">Investimentos</a>
                             </li>
                             <li class="u-nav-item">
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="" style="padding: 10px 20px;">Quem somos</a>
                             </li>
                             <li class="u-nav-item">
-                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="#" style="padding: 10px 20px;">CCB - Bacen</a>
+                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('ccb') }}" style="padding: 10px 20px;">CCB - Bacen</a>
                             </li>
                             <li class="u-nav-item">
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="#" style="padding: 10px 20px;">Documentos</a>
@@ -64,13 +64,13 @@
                                         <a class="u-button-style u-nav-link" href="./">Azurita</a>
                                     </li>
                                     <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link" href="">Investimentos</a>
+                                        <a class="u-button-style u-nav-link" href="{{ route('investimentos') }}">Investimentos</a>
                                     </li>
                                     <li class="u-nav-item">
                                         <a class="u-button-style u-nav-link" href="">Quem somos</a>
                                     </li>
                                     <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link" href="#">CCB - Bacen</a>
+                                        <a class="u-button-style u-nav-link" href="{{ route('ccb') }}">CCB - Bacen</a>
                                     </li>
                                     <li class="u-nav-item">
                                         <a class="u-button-style u-nav-link" href="#">Documentos</a>
