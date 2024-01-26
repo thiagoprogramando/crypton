@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>CRYPTON - {{ Auth::user()->name }}</title>
+        <title>AZURITA - {{ Auth::user()->name }}</title>
 
         <link rel="icon" type="image/x-icon" href="{{ asset('template/img/favicon/favicon.ico') }}"/>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -34,7 +34,7 @@
                 <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
                     <div class="app-brand demo">
                         <a href="{{ route('app') }}" class="app-brand-link">
-                            <span class="app-brand-text demo menu-text fw-bolder ms-2">C.R.Y.P.T.O.N</span>
+                            <span class="app-brand-text demo menu-text fw-bolder ms-2">A.Z.U.R.I.T.A</span>
                         </a>
 
                         <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
@@ -203,7 +203,7 @@
 
                                     <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
                                         <div class="avatar avatar-online">
-                                            <img src="{{ url("storage/assets/CK.png") }}" class="w-px-40 h-auto rounded-circle"/>
+                                            <img src="{{ asset("template/img/backgrounds/logo.png") }}" class="w-px-40 h-auto rounded-circle"/>
                                         </div>
                                     </a>
                                     <ul class="dropdown-menu dropdown-menu-end">
@@ -212,7 +212,7 @@
                                                 <div class="d-flex">
                                                     <div class="flex-shrink-0 me-3">
                                                         <div class="avatar avatar-online">
-                                                            <img src="{{ url("storage/assets/CK.png") }}" class="w-px-40 h-auto rounded-circle"/>
+                                                            <img src="{{ asset("template/img/backgrounds/logo.png") }}" class="w-px-40 h-auto rounded-circle"/>
                                                         </div>
                                                     </div>
                                                     <div class="flex-grow-1">

@@ -11,7 +11,6 @@
                             <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
                                 <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalInvest">Investir</a>
                                 <a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#modalCreateWithdraw">Saque</a>
-                                <a class="dropdown-item">Aprenda a Investir na C.R.Y.P.T.O.N</a>
                             </div>
                         </div>
                     </div>

@@ -12,7 +12,7 @@
                                 <span class="app-brand-logo demo">
                                     
                                 </span>
-                                <span class="app-brand-text demo text-body fw-bolder">C.R.Y.P.T.O.N</span>
+                                <span class="app-brand-text demo text-body fw-bolder">A.Z.U.R.I.T.A</span>
                             </a>
                         </div>
                         
