@@ -21,9 +21,9 @@
                         <input type="text" class="form-control" name="value" oninput="mascaraReal(this)" placeholder="Quanto deseja investir:"/>
                     </div>
                     <div class="mb-3">
-                        <select class="form-select" name="payment">
+                        <select class="form-select" name="billingType">
                             <option selected>Como deseja pagar:</option>
-                            <option value="PIX">Pix</option>
+                            <option value="BOLETO">Boleto</option>
                             <option value="WALLET">Carteira</option>
                         </select>
                     </div>
@@ -114,9 +114,9 @@
                     </div>
                     <div class="mb-3">
                         <select class="form-select" name="invest_output" required>
-                            <option selected>Sobre a retirada do valor investido:</option>
-                            <option value="0">Apenas os redimentos</option>
-                            <option value="1">Rendimentos & Investimento</option>
+                            <option selected>Modalidade:</option>
+                            <option value="0">TRANCADO (Apenas rentabilidade)</option>
+                            <option value="1">BULLET (Saque de investimento + rentabilidade)</option>
                         </select>
                     </div>
                 </div>

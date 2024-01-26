@@ -39,6 +39,7 @@ Route::middleware(['auth'])->group(function () {
     Route::post('createProfitability', [ProductWalletController::class, 'createProfitability'])->name('createProfitability');
     
     Route::post('createWallet', [WalletController::class, 'createWallet'])->name('createWallet');
+    Route::get('payments/{status}', [WalletController::class, 'payments'])->name('payments');
 
     Route::get('/extract', [ExtractController::class, 'extract'])->name('extract');
     Route::get('/payment/{user?}/{status?}', [ExtractController::class, 'payment'])->name('payment');

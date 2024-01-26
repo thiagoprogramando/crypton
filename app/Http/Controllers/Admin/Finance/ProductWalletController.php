@@ -35,7 +35,7 @@ class ProductWalletController extends Controller {
 
         try {
             $product = Product::findOrFail($request->product);
-            $wallets = Wallet::where('id_product', $product->id)->get();
+            $wallets = Wallet::where('id_product', $product->id)->where('status', 1)->get();
     
             $wallets->each(function ($wallet) use ($request, $product) {
                 $percentage = $wallet->value * ($request->percentage / 100);

@@ -16,6 +16,7 @@ return new class extends Migration {
             $table->integer('status');
             $table->decimal('value', 10, 2);
             $table->decimal('value_profitability', 10, 2);
+            $table->longText('url');
             $table->date('date_output');
             $table->integer('invest_output');
             $table->timestamps();

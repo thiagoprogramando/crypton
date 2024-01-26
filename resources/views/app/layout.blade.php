@@ -96,6 +96,12 @@
                             </ul>
                         </li>
                         <li class="menu-item">
+                            <a href="{{ route('payments', ['status' => 2]) }}" class="menu-link">
+                              <i class="menu-icon tf-icons bx bx-credit-card"></i>
+                              <div>Pagamentos</div>
+                            </a>
+                        </li>
+                        <li class="menu-item">
                             <a data-bs-toggle="modal" data-bs-target="#modalInvest" class="menu-link">
                               <i class="menu-icon tf-icons bx bx-message-square-add"></i>
                               <div>Investir</div>
@@ -226,11 +232,10 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="#">
+                                            <a class="dropdown-item" href="{{ route('payments', ['status' => 2]) }}">
                                                 <span class="d-flex align-items-center align-middle">
                                                     <i class="flex-shrink-0 bx bx-credit-card me-2"></i>
                                                     <span class="flex-grow-1 align-middle">Pagamentos</span>
-                                                    <span class="flex-shrink-0 badge badge-center rounded-pill bg-danger w-px-20 h-px-20">4</span>
                                                 </span>
                                             </a>
                                         </li>

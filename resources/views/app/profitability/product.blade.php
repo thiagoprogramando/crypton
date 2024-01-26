@@ -117,9 +117,9 @@
                                                         </div>
                                                         <div class="mb-3">
                                                             <select class="form-select" name="invest_output" required>
-                                                                <option value="{{ $product->invest_output }}" selected>Sobre a retirada do valor investido:</option>
-                                                                <option value="0">Apenas os redimentos</option>
-                                                                <option value="1">Rendimentos & Investimento</option>
+                                                                <option value="{{ $product->invest_output }}" selected>Modalidade:</option>
+                                                                <option value="0">TRANCADO</option>
+                                                                <option value="1">BULLET</option>
                                                             </select>
                                                         </div>
                                                     </div>
