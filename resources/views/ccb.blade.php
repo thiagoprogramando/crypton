@@ -21,71 +21,71 @@
         <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
     </head>
     <body data-home-page="./" data-home-page-title="Página Inicial" data-path-to-root="./" data-include-products="true" class="u-body u-overlap u-overlap-contrast u-xl-mode" data-lang="pt">
-        <header class="u-clearfix u-custom-color-1 u-header u-header" id="sec-5095" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-            <div class="u-clearfix u-sheet u-sheet-1">
-                <a href="./" class="u-image u-logo u-image-1" data-image-width="2048" data-image-height="2048">
-                    <img src="{{ asset('landingPage/img/logoicone.png') }}" class="u-logo-image u-logo-image-1">
-                </a>
-                <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
-                    <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
-                        <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
-                            <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
-                            <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect></g></svg>
-                        </a>
-                    </div>
-                    <div class="u-custom-menu u-nav-container">
-                        <ul class="u-nav u-spacing-2 u-unstyled u-nav-1">
-                            <li class="u-nav-item">
-                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="./" style="padding: 10px 20px;">Azurita</a>
-                            </li>
-                            <li class="u-nav-item">
-                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="" style="padding: 10px 20px;">Investimentos</a>
-                            </li>
-                            <li class="u-nav-item">
-                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="" style="padding: 10px 20px;">Quem somos</a>
-                            </li>
-                            <li class="u-nav-item">
-                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="#" style="padding: 10px 20px;">CCB - Bacen</a>
-                            </li>
-                            <li class="u-nav-item">
-                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="#" style="padding: 10px 20px;">Documentos</a>
-                            </li>
-                            <li class="u-nav-item">
-                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('login') }}" style="padding: 10px 20px;">Acessar</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="u-custom-menu u-nav-container-collapse">
-                        <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-                            <div class="u-inner-container-layout u-sidenav-overflow">
-                                <div class="u-menu-close"></div>
-                                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                                    <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link" href="./">Azurita</a>
-                                    </li>
-                                    <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link" href="">Investimentos</a>
-                                    </li>
-                                    <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link" href="">Quem somos</a>
-                                    </li>
-                                    <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link" href="#">CCB - Bacen</a>
-                                    </li>
-                                    <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link" href="#">Documentos</a>
-                                    </li>
-                                    <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link" href="{{ route('login') }}">Acessar</a>
-                                    </li>
-                                </ul>
-                            </div>
+      <header class="u-clearfix u-header" id="sec-5095" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+        <div class="u-clearfix u-sheet u-sheet-1">
+            <a href="./" class="u-image u-logo u-image-1" data-image-width="2048" data-image-height="2048">
+                <img src="{{ asset('landingPage/img/logoicone.png') }}" class="u-logo-image u-logo-image-1">
+            </a>
+            <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
+                <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
+                    <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+                        <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+                        <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect></g></svg>
+                    </a>
+                </div>
+                <div class="u-custom-menu u-nav-container">
+                    <ul class="u-nav u-spacing-2 u-unstyled u-nav-1">
+                        <li class="u-nav-item">
+                            <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="./" style="padding: 10px 20px;">Azurita</a>
+                        </li>
+                        <li class="u-nav-item">
+                            <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('investimentos') }}" style="padding: 10px 20px;">Investimentos</a>
+                        </li>
+                        <li class="u-nav-item">
+                            <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="" style="padding: 10px 20px;">Quem somos</a>
+                        </li>
+                        <li class="u-nav-item">
+                            <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('ccb') }}" style="padding: 10px 20px;">CCB - Bacen</a>
+                        </li>
+                        <li class="u-nav-item">
+                            <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="#" style="padding: 10px 20px;">Documentos</a>
+                        </li>
+                        <li class="u-nav-item">
+                            <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('login') }}" style="padding: 10px 20px;">Acessar</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="u-custom-menu u-nav-container-collapse">
+                    <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+                        <div class="u-inner-container-layout u-sidenav-overflow">
+                            <div class="u-menu-close"></div>
+                            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+                                <li class="u-nav-item">
+                                    <a class="u-button-style u-nav-link" href="./">Azurita</a>
+                                </li>
+                                <li class="u-nav-item">
+                                    <a class="u-button-style u-nav-link" href="{{ route('investimentos') }}">Investimentos</a>
+                                </li>
+                                <li class="u-nav-item">
+                                    <a class="u-button-style u-nav-link" href="">Quem somos</a>
+                                </li>
+                                <li class="u-nav-item">
+                                    <a class="u-button-style u-nav-link" href="{{ route('ccb') }}">CCB - Bacen</a>
+                                </li>
+                                <li class="u-nav-item">
+                                    <a class="u-button-style u-nav-link" href="#">Documentos</a>
+                                </li>
+                                <li class="u-nav-item">
+                                    <a class="u-button-style u-nav-link" href="{{ route('login') }}">Acessar</a>
+                                </li>
+                            </ul>
                         </div>
-                        <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
                     </div>
-                </nav>
-            </div>
-        </header>
+                    <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
 
         <section class="u-align-left u-clearfix u-custom-color-1 u-section-1" id="sec-1b39">
       <div class="u-clearfix u-sheet u-sheet-1">
