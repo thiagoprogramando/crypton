@@ -21,71 +21,71 @@
         <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
     </head>
     <body data-home-page="./" data-home-page-title="Página Inicial" data-path-to-root="./" data-include-products="true" class="u-body u-overlap u-overlap-contrast u-xl-mode" data-lang="pt">
-      <header class="u-clearfix u-header" id="sec-5095" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <a href="./" class="u-image u-logo u-image-1" data-image-width="2048" data-image-height="2048">
-                <img src="{{ asset('landingPage/img/logoicone.png') }}" class="u-logo-image u-logo-image-1">
-            </a>
-            <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
-                <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
-                    <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
-                        <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
-                        <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect></g></svg>
-                    </a>
-                </div>
-                <div class="u-custom-menu u-nav-container">
-                    <ul class="u-nav u-spacing-2 u-unstyled u-nav-1">
-                        <li class="u-nav-item">
-                            <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="./" style="padding: 10px 20px;">Azurita</a>
-                        </li>
-                        <li class="u-nav-item">
-                            <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('investimentos') }}" style="padding: 10px 20px;">Investimentos</a>
-                        </li>
-                        <li class="u-nav-item">
-                            <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="" style="padding: 10px 20px;">Quem somos</a>
-                        </li>
-                        <li class="u-nav-item">
-                            <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('ccb') }}" style="padding: 10px 20px;">CCB - Bacen</a>
-                        </li>
-                        <li class="u-nav-item">
-                            <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="#" style="padding: 10px 20px;">Documentos</a>
-                        </li>
-                        <li class="u-nav-item">
-                            <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('login') }}" style="padding: 10px 20px;">Acessar</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="u-custom-menu u-nav-container-collapse">
-                    <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-                        <div class="u-inner-container-layout u-sidenav-overflow">
-                            <div class="u-menu-close"></div>
-                            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                                <li class="u-nav-item">
-                                    <a class="u-button-style u-nav-link" href="./">Azurita</a>
-                                </li>
-                                <li class="u-nav-item">
-                                    <a class="u-button-style u-nav-link" href="{{ route('investimentos') }}">Investimentos</a>
-                                </li>
-                                <li class="u-nav-item">
-                                    <a class="u-button-style u-nav-link" href="">Quem somos</a>
-                                </li>
-                                <li class="u-nav-item">
-                                    <a class="u-button-style u-nav-link" href="{{ route('ccb') }}">CCB - Bacen</a>
-                                </li>
-                                <li class="u-nav-item">
-                                    <a class="u-button-style u-nav-link" href="#">Documentos</a>
-                                </li>
-                                <li class="u-nav-item">
-                                    <a class="u-button-style u-nav-link" href="{{ route('login') }}">Acessar</a>
-                                </li>
-                            </ul>
-                        </div>
+        <header class="u-clearfix u-custom-color-1 u-header u-header" id="sec-5095" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
+            <div class="u-clearfix u-sheet u-sheet-1">
+                <a href="./" class="u-image u-logo u-image-1" data-image-width="2048" data-image-height="2048">
+                    <img src="{{ asset('landingPage/img/logoicone.png') }}" class="u-logo-image u-logo-image-1">
+                </a>
+                <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
+                    <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
+                        <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+                            <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+                            <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect></g></svg>
+                        </a>
                     </div>
-                    <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-                </div>
-            </nav>
-        </div>
-    </header>
+                    <div class="u-custom-menu u-nav-container">
+                        <ul class="u-nav u-spacing-2 u-unstyled u-nav-1">
+                            <li class="u-nav-item">
+                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="./" style="padding: 10px 20px;">Azurita</a>
+                            </li>
+                            <li class="u-nav-item">
+                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="" style="padding: 10px 20px;">Investimentos</a>
+                            </li>
+                            <li class="u-nav-item">
+                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="" style="padding: 10px 20px;">Quem somos</a>
+                            </li>
+                            <li class="u-nav-item">
+                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="#" style="padding: 10px 20px;">CCB - Bacen</a>
+                            </li>
+                            <li class="u-nav-item">
+                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="#" style="padding: 10px 20px;">Documentos</a>
+                            </li>
+                            <li class="u-nav-item">
+                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('login') }}" style="padding: 10px 20px;">Acessar</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="u-custom-menu u-nav-container-collapse">
+                        <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+                            <div class="u-inner-container-layout u-sidenav-overflow">
+                                <div class="u-menu-close"></div>
+                                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
+                                    <li class="u-nav-item">
+                                        <a class="u-button-style u-nav-link" href="./">Azurita</a>
+                                    </li>
+                                    <li class="u-nav-item">
+                                        <a class="u-button-style u-nav-link" href="">Investimentos</a>
+                                    </li>
+                                    <li class="u-nav-item">
+                                        <a class="u-button-style u-nav-link" href="">Quem somos</a>
+                                    </li>
+                                    <li class="u-nav-item">
+                                        <a class="u-button-style u-nav-link" href="#">CCB - Bacen</a>
+                                    </li>
+                                    <li class="u-nav-item">
+                                        <a class="u-button-style u-nav-link" href="#">Documentos</a>
+                                    </li>
+                                    <li class="u-nav-item">
+                                        <a class="u-button-style u-nav-link" href="{{ route('login') }}">Acessar</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+                    </div>
+                </nav>
+            </div>
+        </header>
 
         <section class="u-clearfix u-white u-section-1" id="sec-2e1e">
             <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
@@ -105,7 +105,7 @@
                 <div class="u-repeater u-repeater-1">
                   <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-1">
                     <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
-                      <img alt="" class="u-border-1 u-border-custom-color-2 u-expanded-width u-image u-image-default u-image-1" data-image-width="512" data-image-height="342" src="{{ asset('landingPage/img/ccb.jpeg') }}">
+                      <img alt="" class="u-border-1 u-border-custom-color-2 u-expanded-width u-image u-image-default u-image-1" data-image-width="512" data-image-height="342" src="images/Platinum.png">
                       <h4 class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-custom-color-2 u-text-1"> CCB&nbsp;<b>Azurita - 2024 - 1,5% Ao mês - 6 meses&nbsp;&nbsp;</b>
                       </h4>
                       <p class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-2">ALVO: R$ 500.000,00<br>Prazo: 6 meses<br>Rentabilidade: 1,5% ao&nbsp;<br>
@@ -123,7 +123,7 @@
                   </div>
                   <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-3">
                     <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-3">
-                      <img alt="" class="u-border-1 u-border-custom-color-2 u-expanded-width u-image u-image-default u-image-3" data-image-width="1280" data-image-height="848" src="{{ asset('landingPage/img/ccb.jpeg') }}">
+                      <img alt="" class="u-border-1 u-border-custom-color-2 u-expanded-width u-image u-image-default u-image-3" data-image-width="1280" data-image-height="848" src="images/703bc8e29f0735b5c2c981e2ce7c4a78cab13be4be986671bc4d9509a7638b0ddb606a21d88f35fe9621d0513dcfef088b267164ac2d276e6be179_1280.jpg">
                       <h4 class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-custom-color-2 u-text-5"> CCB&nbsp;<b>Azurita - 2024 - 2,25% Ao mês - 18 meses&nbsp;&nbsp;</b>
                       </h4>
                       <p class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-6"> ALVO: R$ 500.000,00<br>Prazo: 18 meses<br>Rentabilidade: 2,25% ao mês
@@ -132,7 +132,7 @@
                   </div>
                   <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-4">
                     <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-4">
-                      <img alt="" class="u-border-1 u-border-custom-color-2 u-expanded-width u-image u-image-default u-image-4" data-image-width="1280" data-image-height="853" src="{{ asset('landingPage/img/ccb.jpeg') }}">
+                      <img alt="" class="u-border-1 u-border-custom-color-2 u-expanded-width u-image u-image-default u-image-4" data-image-width="1280" data-image-height="853" src="images/c541ddf9d6d1b1cd4bf18cf89e1b45a10f98236d23b31c2330ec8b9fe5ab0280e8ab0bf51b41bfd08ef041f7f23e98609cb44c21f1d27eb4acbb78_1280.jpg">
                       <h4 class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-custom-color-2 u-text-7"><b></b> CCB&nbsp;<b>Azurita - 2024 - 2,50% Ao mês - 24 meses&nbsp;&nbsp;</b>
                       </h4>
                       <p class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-8"> ALVO: R$ 500.000,00<br>Prazo: 24 meses<br>Rentabilidade: 2,50% ao mês
