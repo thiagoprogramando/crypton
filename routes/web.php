@@ -10,7 +10,8 @@ use App\Http\Controllers\Client\User\ForgoutController;
 use App\Http\Controllers\Client\User\UserController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () { return view('index'); })->name('login');
+Route::get('/', function () { return view('index'); })->name('welcome');
+Route::get('/login', function () { return view('login'); })->name('login');
 Route::get('/registrer', function () { return view('registrer'); })->name('registrer');
 
 Route::get('/forgout-password/{code?}', [ForgoutController::class, 'index'])->name('forgout-password');
