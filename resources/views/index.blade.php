@@ -9,6 +9,8 @@
 
         <title>Azurita - Rentabilidade Real</title>
 
+        <link rel="icon" type="image/x-icon" href="{{ asset('landingPage/img/logoicone.png') }}"/>
+
         <link rel="stylesheet" href="{{ asset('landingPage/css/nicepage.css') }}" media="screen">
         <link rel="stylesheet" href="{{ asset('landingPage/css/main.css') }}" media="screen">
 
