@@ -13,7 +13,7 @@
     <link rel="icon" type="image/x-icon" href="{{ asset('landingPage/img/logoicone.png') }}" />
 
     <link rel="stylesheet" href="{{ asset('landingPage/css/nicepage.css') }}" media="screen">
-    <link rel="stylesheet" href="{{ asset('landingPage/css/ccb.css') }}" media="screen">
+    <link rel="stylesheet" href="{{ asset('landingPage/css/about.css') }}" media="screen">
 
     <script class="u-script" type="text/javascript" src="{{ asset('landingPage/js/jquery.js') }}" defer=""></script>
     <script class="u-script" type="text/javascript" src="{{ asset('landingPage/js/main.js') }}" defer=""></script>
@@ -22,38 +22,12 @@
         href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-
-    <style>
-        .calculator {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        input {
-            width: 100% !important;
-        }
-
-        .bars {
-            margin-bottom: 20px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
-
-        .results p {
-            margin: 0;
-        }
-    </style>
 </head>
 
 <body data-home-page="./" data-home-page-title="Página Inicial" data-path-to-root="./" data-include-products="true"
     class="u-body u-overlap u-overlap-contrast u-xl-mode" data-lang="pt">
-    <header class="u-clearfix u-header" id="sec-5095" data-animation-name="" data-animation-duration="0"
-        data-animation-delay="0" data-animation-direction="">
+    <header class="u-clearfix u-custom-color-1 u-header u-header" id="sec-5095" data-animation-name=""
+        data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
         <div class="u-clearfix u-sheet u-sheet-1">
             <a href="./" class="u-image u-logo u-image-1" data-image-width="2048" data-image-height="2048">
                 <img src="{{ asset('landingPage/img/logoicone.png') }}" class="u-logo-image u-logo-image-1">
@@ -124,109 +98,64 @@
         </div>
     </header>
 
-    <section class="u-align-left u-clearfix u-custom-color-1 u-section-1" id="sec-1b39">
+    <br><br><br><br><br><br>
+
+    <section class="u-clearfix u-section-1" id="sec-8ac6">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <div class="fr-view u-clearfix u-rich-text u-text u-text-1">
-                <h1 style="text-align: left;">Investir é transformar</h1>
-                <p id="isPasted">
-                    <span style="font-size: 1.25rem;">Investir é fundamental para um futuro financeiro sólido. Na
-                        Azurita Capital, entendemos essa importância, comprometendo-nos a preservar e fazer crescer seu
-                        capital. Oferecemos opções de investimento, incluindo a CCB, combinando segurança e
-                        rentabilidade. Personalizamos soluções para atender às suas metas específicas, guiando-o rumo ao
-                        sucesso financeiro. Conte com a Azurita Capital para transformar seus sonhos em
-                        realidade.&nbsp;</span>
-                </p>
-            </div>
-        </div>
-    </section>
-    <section class="u-align-center u-clearfix u-grey-5 u-section-2" id="sec-6da0">
-        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-            <h2 class="u-text u-text-default u-text-1">Quanto irá render?</h2>
-            <p class="u-text u-text-2"> Em nossa plataforma, cada produto exibe prazos e rentabilidades claramente
-                declarados na página correspondente. Além disso, oferecemos uma calculadora rentável, permitindo que
-                você simule e planeje sua carteira de investimentos de forma transparente e conveniente.</p>
-            <a href="{{ route('registrer') }}"
-                class="u-border-none u-btn u-btn-rectangle u-button-style u-color-scheme-summer-time u-custom-color-1 u-radius-0 u-btn-1">Quero
-                investir</a>
-        </div>
-    </section>
-    <section class="u-clearfix u-section-3" id="sec-391d">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
-                <div class="u-layout">
-                    <div class="u-layout-row">
-                        <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+            <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+                <div class="u-layout" style="">
+                    <div class="u-layout-row" style="">
+                        <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-white u-layout-cell-1"
+                            src="">
                             <div class="u-container-layout u-container-layout-1">
-                                <p class="u-text u-text-default u-text-1">
-                                  <img src="{{ asset('landingPage/img/chart.png') }}" alt="">
+                                <h2 class="u-align-center u-text u-text-custom-color-2 u-text-1">Sobre nós</h2>
+                                <p class="u-align-left u-text u-text-2"> "Além da nossa dedicação em potencializar seus
+                                    ganhos, a Azurita Capital oferece um excepcional gerenciamento da CCB (Cédula de
+                                    Crédito Bancário). Nossa abordagem estratégica envolve a expertise na gestão
+                                    responsável desse título cambial, assegurando que cada investimento alcance seu
+                                    potencial máximo.<br>
+                                    <br>No âmbito do gerenciamento da CCB, destacamos nossa transparência e compromisso
+                                    em informar detalhadamente sobre os direitos de crédito, garantias e o monitoramento
+                                    dos fluxos de recursos até a liquidação final. Aqui, você encontra mais do que uma
+                                    gestão, encontra uma parceria sólida.
                                 </p>
                             </div>
                         </div>
-                        <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
-                            <div class="u-container-layout u-container-layout-2">
-
-                                <div class="calculator">
-
-                                    <div class="results">
-                                        <h4 class="u-text u-text-custom-color-2 u-text-1">Azurita Capital: <span
-                                                id="azurita">0</span></h4> <br>
-                                        <p>CDI: <span id="cdi">0</span></p> <br>
-                                        <p>Poupança: <span id="poupanca">0</span></p> <br>
-                                    </div>
-
-                                    <div class="bars">
-                                        <label for="months">Prazo</label>
-                                        <input type="range" id="months" min="1" max="36"
-                                            value="12">
-
-                                        <label for="amount">R$ 1.000,00</label>
-                                        <input type="range" id="amount" min="1000" max="100000"
-                                            step="1000" value="1000">
-                                    </div>
-
-                                </div>
-
-                            </div>
+                        <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1"
+                            src="" data-image-width="2048" data-image-height="2048">
+                            <div class="u-container-layout u-valign-middle u-container-layout-2" src=""></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="u-clearfix u-grey-10 u-section-4" id="sec-75c7">
-        <div class="u-clearfix u-sheet u-sheet-1">
-            <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
-                <div class="u-layout">
-                    <div class="u-layout-row">
-                        <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
-                            <div class="u-container-layout u-container-layout-1">
-                                <p class="u-text u-text-default u-text-1">
-                                    <span style="font-weight: 700; font-size: 1.875rem;"> Cédula de Crédito Bancário
-                                        (CCB)</span>
-                                    <br>
-                                    <br>A Cédula de Crédito Bancário (CCB) é um título de crédito emitido por pessoa
-                                    física ou jurídica em favor de uma instituição financeira ou de entidade que se
-                                    assemelhe. Acima de tudo, o Projeto de Lei número 8.987/17 autoriza a emissão da
-                                    Cédula de Crédito Bancário Digital. Desta forma, a cédula eletrônica se equipara à
-                                    cédula física
-                                </p>
-                            </div>
-                        </div>
-                        <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
-                            <div class="u-container-layout u-container-layout-2">
-                                <p class="u-text u-text-default u-text-2">
-                                    <span style="font-size: 1.875rem; font-weight: 700;">Tributação</span>
-                                    <br>
-                                    <br>A CCB possui Imposto de Renda Retido na Fonte. Em outras palavras, na data de
-                                    retirada, o imposto será deduzido do seu investimento de forma automática com base
-                                    na tabela regressiva. Vale lembrar que o imposto de renda irá incidir somente sobre
-                                    a REMUNERAÇÃO do investimento e não sobre o montante.<br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+
+    <section class="u-align-center u-clearfix u-container-align-center u-section-2" id="sec-f05f">
+        <div class="u-align-left u-clearfix u-sheet u-sheet-1">
+          <div class="u-expanded-width u-list u-list-1">
+            <div class="u-repeater u-repeater-1">
+              <div class="u-align-center u-container-align-center u-container-style u-list-item u-repeater-item">
+                <div class="u-container-layout u-similar-container u-container-layout-1"><span class="u-align-center u-file-icon u-icon u-text-palette-1-base u-icon-1"><img src="{{ asset('landingPage/img/11335454-d28158b7.png') }}" alt=""></span>
+                  <h3 class="u-text u-text-custom-color-1 u-text-default u-text-1">Missão</h3>
+                  <p class="u-text u-text-2">Nossa missão é trilhar o caminho da prosperidade financeira para todos, guiados por valores de transparência, inovação e respeito ao capital. Juntos, transformamos sonhos em conquistas.</p>
                 </div>
+              </div>
+              <div class="u-align-center u-container-align-center u-container-style u-list-item u-repeater-item">
+                <div class="u-container-layout u-similar-container u-container-layout-2"><span class="u-align-center u-file-icon u-icon u-text-palette-1-base u-icon-2"><img src="{{ asset('landingPage/img/11216818-460ef51a.png') }}" alt=""></span>
+                  <h3 class="u-text u-text-custom-color-1 u-text-default u-text-3"> Respeito ao Capital</h3>
+                  <p class="u-text u-text-4"> Cultivamos o respeito ao capital como alicerce de nossas ações. Cada investimento, independente do montante, é tratado com a consideração e responsabilidade que merece.<br>
+                  </p>
+                </div>
+              </div>
+              <div class="u-align-center u-container-align-center u-container-style u-list-item u-repeater-item">
+                <div class="u-container-layout u-similar-container u-container-layout-3"><span class="u-align-center u-file-icon u-icon u-text-palette-1-base u-icon-3"><img src="{{ asset('landingPage/img/9254664-c202fb36.png') }}" alt=""></span>
+                  <h3 class="u-text u-text-custom-color-1 u-text-default u-text-5"> Visão</h3>
+                  <p class="u-text u-text-6"> Nossa visão é ser a referência em excelência e inovação no universo financeiro. Enxergamos um futuro onde cada investidor, orientado pela nossa expertise, alcance seus objetivos com confiança e segurança.</p>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
     </section>
 
@@ -274,53 +203,6 @@
             </div>
         </div>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <script>
-        $(document).ready(function() {
-            updateResults();
-
-            $("#months, #amount").on("input", function() {
-                updateResults();
-                updateLabel("amount");
-                updateLabel("months");
-            });
-
-            function updateResults() {
-                var months = $("#months").val();
-                var amount = $("#amount").val();
-
-                var azuritaRate = 0.02;
-                var cdiRate = 0.014;
-                var poupancaRate = 0.005;
-
-                var azuritaResult = calculateResult(azuritaRate, months, amount);
-                var cdiResult = calculateResult(cdiRate, months, amount);
-                var poupancaResult = calculateResult(poupancaRate, months, amount);
-
-                $("#azurita").text('R$ ' + formatCurrency(azuritaResult));
-                $("#cdi").text('R$ ' + formatCurrency(cdiResult));
-                $("#poupanca").text('R$ ' + formatCurrency(poupancaResult));
-            }
-
-            function calculateResult(rate, months, amount) {
-                return amount * Math.pow((1 + rate), months);
-            }
-
-            function updateLabel(id) {
-                var value = $("#" + id).val();
-                var formattedValue = id === "amount" ? formatCurrency(value) : value;
-                $("label[for='" + id + "']").text(id === "amount" ? formattedValue : "Prazo: " + formattedValue +
-                    " meses");
-            }
-
-            function formatCurrency(value) {
-                return "R$ " + Number(value).toLocaleString("pt-BR", {
-                    minimumFractionDigits: 2
-                });
-            }
-        });
-    </script>
 </body>
 
 </html>

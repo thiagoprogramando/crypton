@@ -42,13 +42,10 @@
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('investimentos') }}" style="padding: 10px 20px;">Investimentos</a>
                             </li>
                             <li class="u-nav-item">
-                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="" style="padding: 10px 20px;">Quem somos</a>
+                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('sobre') }}" style="padding: 10px 20px;">Quem somos</a>
                             </li>
                             <li class="u-nav-item">
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('ccb') }}" style="padding: 10px 20px;">CCB - Bacen</a>
-                            </li>
-                            <li class="u-nav-item">
-                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="#" style="padding: 10px 20px;">Documentos</a>
                             </li>
                             <li class="u-nav-item">
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('login') }}" style="padding: 10px 20px;">Acessar</a>
@@ -67,13 +64,10 @@
                                         <a class="u-button-style u-nav-link" href="{{ route('investimentos') }}">Investimentos</a>
                                     </li>
                                     <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link" href="">Quem somos</a>
+                                        <a class="u-button-style u-nav-link" href="{{ route('sobre') }}">Quem somos</a>
                                     </li>
                                     <li class="u-nav-item">
                                         <a class="u-button-style u-nav-link" href="{{ route('ccb') }}">CCB - Bacen</a>
-                                    </li>
-                                    <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link" href="#">Documentos</a>
                                     </li>
                                     <li class="u-nav-item">
                                         <a class="u-button-style u-nav-link" href="{{ route('login') }}">Acessar</a>
@@ -91,7 +85,7 @@
                 <h1 class="u-align-center u-text u-text-body-alt-color u-text-default u-title u-text-1">CCB</h1>
                 <blockquote class="u-align-center u-text u-text-2">Azurita</blockquote>
                 <p class="u-align-center u-large-text u-text u-text-variant u-text-3">Rentabilidade de alta performance para <span style="font-weight: 700; font-style: italic;">você.</span></p>
-                <a href="#" class="u-align-center u-border-none u-btn u-button-style u-custom-color-2 u-btn-1">Faça sua simulação</a>
+                <a href="{{ route('ccb') }}" class="u-align-center u-border-none u-btn u-button-style u-custom-color-2 u-btn-1">Faça sua simulação</a>
             </div>
         </section>
         <section class="u-clearfix u-section-2" id="sec-ee37">
@@ -166,7 +160,7 @@
                 <p class="u-align-center u-text u-text-2">
                     Somos mais do que uma empresa de investimentos. Somos guardiões do seu patrimônio, dedicados a potencializar seus ganhos.
                 </p>
-                <a href="#" class="u-border-none u-btn u-btn-rectangle u-button-style u-color-scheme-summer-time u-custom-color-2 u-radius-0 u-btn-1">Quem somos</a>
+                <a href="{{ route('sobre') }}" class="u-border-none u-btn u-btn-rectangle u-button-style u-color-scheme-summer-time u-custom-color-2 u-radius-0 u-btn-1">Quem somos</a>
             </div>
         </section>
         <section class="u-align-center u-clearfix u-container-align-center-lg u-container-align-center-md u-container-align-center-xl u-white u-section-5" id="carousel_ab8d">
@@ -370,7 +364,7 @@
                     <div class="u-container-layout u-similar-container u-container-layout-2">
                       <h3 class="u-text u-text-default u-text-3">Sobre</h3>
                       <ul class="u-text u-text-4">
-                        <li>AZURITA INVESTIMENTOS&nbsp;</li>
+                        <li>AZURITA&nbsp;</li>
                         <li>53.571.127/0001-27</li>
                         <li>azurita@azuritacapital.com.br</li>
                       </ul>
@@ -396,7 +390,7 @@
             <a href="./" class="u-image u-logo u-image-1" data-image-width="2048" data-image-height="2048">
               <img src="{{ asset('landingPage/img/logoicone.png') }}" class="u-logo-image u-logo-image-1">
             </a>
-            <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-1">AZURITA INVESTIMENTOS - 53.571.127/0001-27</p>
+            <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-1">AZURITA - 53.571.127/0001-27</p>
             <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
                 <a class="u-social-url" title="facebook" target="_blank" href="">
                     <span class="u-icon u-social-facebook u-social-icon u-icon-1">

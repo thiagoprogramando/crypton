@@ -20,6 +20,7 @@
         <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
         <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
     </head>
+    
     <body data-home-page="./" data-home-page-title="Página Inicial" data-path-to-root="./" data-include-products="true" class="u-body u-overlap u-overlap-contrast u-xl-mode" data-lang="pt">
         <header class="u-clearfix u-custom-color-1 u-header u-header" id="sec-5095" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
             <div class="u-clearfix u-sheet u-sheet-1">
@@ -39,16 +40,13 @@
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="./" style="padding: 10px 20px;">Azurita</a>
                             </li>
                             <li class="u-nav-item">
-                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="" style="padding: 10px 20px;">Investimentos</a>
+                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('investimentos') }}" style="padding: 10px 20px;">Investimentos</a>
                             </li>
                             <li class="u-nav-item">
-                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="" style="padding: 10px 20px;">Quem somos</a>
+                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('sobre') }}" style="padding: 10px 20px;">Quem somos</a>
                             </li>
                             <li class="u-nav-item">
-                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="#" style="padding: 10px 20px;">CCB - Bacen</a>
-                            </li>
-                            <li class="u-nav-item">
-                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="#" style="padding: 10px 20px;">Documentos</a>
+                                <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('ccb') }}" style="padding: 10px 20px;">CCB - Bacen</a>
                             </li>
                             <li class="u-nav-item">
                                 <a class="u-border-2 u-border-active-palette-1-base u-border-hover-palette-1-light-1 u-button-style u-nav-link u-text-active-white u-text-body-alt-color u-text-hover-white" href="{{ route('login') }}" style="padding: 10px 20px;">Acessar</a>
@@ -64,16 +62,13 @@
                                         <a class="u-button-style u-nav-link" href="./">Azurita</a>
                                     </li>
                                     <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link" href="">Investimentos</a>
+                                        <a class="u-button-style u-nav-link" href="{{ route('investimentos') }}">Investimentos</a>
                                     </li>
                                     <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link" href="">Quem somos</a>
+                                        <a class="u-button-style u-nav-link" href="{{ route('sobre') }}">Quem somos</a>
                                     </li>
                                     <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link" href="#">CCB - Bacen</a>
-                                    </li>
-                                    <li class="u-nav-item">
-                                        <a class="u-button-style u-nav-link" href="#">Documentos</a>
+                                        <a class="u-button-style u-nav-link" href="{{ route('ccb') }}">CCB - Bacen</a>
                                     </li>
                                     <li class="u-nav-item">
                                         <a class="u-button-style u-nav-link" href="{{ route('login') }}">Acessar</a>
@@ -95,7 +90,7 @@
                 <br>Quanto à Cédula de Crédito Bancário (CCB), este título cambial é de responsabilidade de instituições financeiras ou entidades autorizadas pelo Banco Central do Brasil. A instituição financeira ou entidade autorizada, conforme o caso, é titular dos direitos de crédito representados pela CCB, presta garantia às obrigações representadas pela CCB ou realiza o serviço de monitoramento dos fluxos de recursos até a liquidação final. Recomenda-se a leitura atenta da CCB para informações detalhadas.<br>
                 <br>
                 <span style="font-style: italic; font-weight: 700;">Confira CCB</span>
-                <br>&nbsp;<br>É importante destacar que, de acordo com a legislação vigente, a CCB não se enquadra como valor mobiliário, não havendo esforço por parte da Azurita ​Capital ou de qualquer outra instituição em relação a esse título. A Azurita Investimentos não comercializa nem distribui qualquer valor mobiliário."
+                <br>&nbsp;<br>É importante destacar que, de acordo com a legislação vigente, a CCB não se enquadra como valor mobiliário, não havendo esforço por parte da Azurita ​Capital ou de qualquer outra instituição em relação a esse título. A AZURITA não comercializa nem distribui qualquer valor mobiliário."
               </p>
             </div>
           </section>
@@ -157,7 +152,7 @@
             <a href="./" class="u-image u-logo u-image-1" data-image-width="2048" data-image-height="2048">
               <img src="{{ asset('landingPage/img/logoicone.png') }}" class="u-logo-image u-logo-image-1">
             </a>
-            <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-1">AZURITA INVESTIMENTOS - 53.571.127/0001-27</p>
+            <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-1">AZURITA - 53.571.127/0001-27</p>
             <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
                 <a class="u-social-url" title="facebook" target="_blank" href="">
                     <span class="u-icon u-social-facebook u-social-icon u-icon-1">
