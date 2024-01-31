@@ -89,7 +89,7 @@
               <p class="u-text u-text-2"> A Azurita Capital, atuando como sociedade por ações, destaca-se na intermediação de negócios, consultoria técnica, treinamento, desenvolvimento e gerenciamento profissional, além de prestação de serviços a instituições financeiras como correspondente bancário. Importante ressaltar que a Azurita ​Capital não é uma instituição financeira e não realiza operações de crédito.<br>
                 <br>Quanto à Cédula de Crédito Bancário (CCB), este título cambial é de responsabilidade de instituições financeiras ou entidades autorizadas pelo Banco Central do Brasil. A instituição financeira ou entidade autorizada, conforme o caso, é titular dos direitos de crédito representados pela CCB, presta garantia às obrigações representadas pela CCB ou realiza o serviço de monitoramento dos fluxos de recursos até a liquidação final. Recomenda-se a leitura atenta da CCB para informações detalhadas.<br>
                 <br>
-                <span style="font-style: italic; font-weight: 700;">Confira CCB</span>
+                <span style="font-style: italic; font-weight: 700;"><a href="https://normativos.bcb.gov.br/Lists/Normativos/Attachments/51096/Circ_4036_v2_P.pdf" target="_blank">Confira CCB</a></span>
                 <br>&nbsp;<br>É importante destacar que, de acordo com a legislação vigente, a CCB não se enquadra como valor mobiliário, não havendo esforço por parte da Azurita ​Capital ou de qualquer outra instituição em relação a esse título. A AZURITA não comercializa nem distribui qualquer valor mobiliário."
               </p>
             </div>
@@ -100,53 +100,53 @@
                 <div class="u-repeater u-repeater-1">
                   <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-1">
                     <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
-                      <img alt="" class="u-border-1 u-border-custom-color-2 u-expanded-width u-image u-image-default u-image-1" data-image-width="512" data-image-height="342" src="images/Platinum.png">
-                      <h4 class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-custom-color-2 u-text-1"> CCB&nbsp;<b>Azurita - 2024 - 1,5% Ao mês - 6 meses&nbsp;&nbsp;</b>
+                      <img class="u-expanded-width u-image u-image-1" src="{{ asset('landingPage/img/products/cromo.jpeg') }}" data-image-width="1600" data-image-height="1600">
+                      <h4 class="u-align-left u-text u-text-custom-color-2 u-text-1"> CCB&nbsp;<b>Azurita - 1,5% Ao mês - 6 meses&nbsp;&nbsp;</b>
                       </h4>
-                      <p class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-2">ALVO: R$ 500.000,00<br>Prazo: 6 meses<br>Rentabilidade: 1,5% ao&nbsp;<br>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-2">
-                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-2">
-                      <img alt="" class="u-border-1 u-border-custom-color-2 u-expanded-width u-image u-image-default u-image-2" data-image-width="1280" data-image-height="853" src="{{ asset('landingPage/img/ccb.jpeg') }}">
-                      <h4 class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-custom-color-2 u-text-3"> CCB&nbsp;<b>Azurita - 2024 - 2,0% Ao mês - 12 meses&nbsp;&nbsp;</b>
-                      </h4>
-                      <p class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-4"> ALVO: R$ 500.000,00<br>Prazo: 12 meses<br>Rentabilidade: 2,0% ao mês
-                      </p>
-                    </div>
-                  </div>
-                  <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-3">
-                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-3">
-                      <img alt="" class="u-border-1 u-border-custom-color-2 u-expanded-width u-image u-image-default u-image-3" data-image-width="1280" data-image-height="848" src="images/703bc8e29f0735b5c2c981e2ce7c4a78cab13be4be986671bc4d9509a7638b0ddb606a21d88f35fe9621d0513dcfef088b267164ac2d276e6be179_1280.jpg">
-                      <h4 class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-custom-color-2 u-text-5"> CCB&nbsp;<b>Azurita - 2024 - 2,25% Ao mês - 18 meses&nbsp;&nbsp;</b>
-                      </h4>
-                      <p class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-6"> ALVO: R$ 500.000,00<br>Prazo: 18 meses<br>Rentabilidade: 2,25% ao mês
-                      </p>
-                    </div>
-                  </div>
-                  <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-4">
-                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-4">
-                      <img alt="" class="u-border-1 u-border-custom-color-2 u-expanded-width u-image u-image-default u-image-4" data-image-width="1280" data-image-height="853" src="images/c541ddf9d6d1b1cd4bf18cf89e1b45a10f98236d23b31c2330ec8b9fe5ab0280e8ab0bf51b41bfd08ef041f7f23e98609cb44c21f1d27eb4acbb78_1280.jpg">
-                      <h4 class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-custom-color-2 u-text-7"><b></b> CCB&nbsp;<b>Azurita - 2024 - 2,50% Ao mês - 24 meses&nbsp;&nbsp;</b>
-                      </h4>
-                      <p class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-8"> ALVO: R$ 500.000,00<br>Prazo: 24 meses<br>Rentabilidade: 2,50% ao mês
+                      <p class="u-align-left u-text u-text-2">Prazo: 6 meses<br>Rentabilidade: 1,5% ao mês&nbsp;<br>
                       </p>
                     </div>
                   </div>
                   <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-5">
                     <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-5">
-                      <img alt="" class="u-border-1 u-border-custom-color-2 u-expanded-width u-image u-image-default u-image-5" data-image-width="1280" data-image-height="853" src="{{ asset('landingPage/img/ccb.jpeg') }}">
-                      <h4 class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-custom-color-2 u-text-9"> CCB&nbsp;<b>Azurita - 2024 - 2,75% Ao mês - 36 meses&nbsp;&nbsp;</b>
+                      <img class="u-expanded-width u-image u-image-5" src="{{ asset('landingPage/img/products/esmeralda.jpeg') }}" data-image-width="1280" data-image-height="853">
+                      <h4 class="u-align-left u-text u-text-custom-color-2 u-text-9"> CCB&nbsp;<b>Azurita - 2,0% Ao mês - 12 meses&nbsp;&nbsp;</b>
                       </h4>
-                      <p class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-10"> ALVO: R$ 500.000,00<br>Prazo: 36 meses<br>Rentabilidade: 2,75% ao mês
+                      <p class="u-align-left u-text u-text-10"> Prazo: 12 meses<br>Rentabilidade: 2,0% ao mês
+                      </p>
+                    </div>
+                  </div>
+                  <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-2">
+                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-2">
+                      <img class="u-expanded-width u-image u-image-2" src="{{ asset('landingPage/img/products/rubi.jpeg') }}" data-image-width="1280" data-image-height="853">
+                      <h4 class="u-align-left u-text u-text-custom-color-2 u-text-3"> CCB&nbsp;<b>Azurita - 2,2% Ao mês - 18 meses&nbsp;&nbsp;</b>
+                      </h4>
+                      <p class="u-align-left u-text u-text-4"> Prazo: 18 meses<br>Rentabilidade: 2,2% ao mês
+                      </p>
+                    </div>
+                  </div>
+                  <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-3">
+                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-3">
+                      <img class="u-expanded-width u-image u-image-3" src="{{ asset('landingPage/img/products/safira.jpeg') }}" data-image-width="1280" data-image-height="848">
+                      <h4 class="u-align-left u-text u-text-custom-color-2 u-text-5"> CCB&nbsp;<b>Azurita - 2,4% Ao mês - 24 meses&nbsp;&nbsp;</b>
+                      </h4>
+                      <p class="u-align-left u-text u-text-6"> Prazo: 24 meses<br>Rentabilidade: 2,4% ao mês
+                      </p>
+                    </div>
+                  </div>
+                  <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-4">
+                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-4">
+                      <img class="u-expanded-width u-image u-image-4" src="{{ asset('landingPage/img/products/topazio.jpeg') }}" data-image-width="1280" data-image-height="853">
+                      <h4 class="u-align-left u-text u-text-custom-color-2 u-text-7"><b></b> CCB&nbsp;<b>Azurita - 2,6% Ao mês - 30 meses&nbsp;&nbsp;</b>
+                      </h4>
+                      <p class="u-align-left u-text u-text-8"> Prazo: 30 meses<br>Rentabilidade: 2,6% ao mês
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-        </section>
+          </section>
           
         <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-custom-color-1 u-footer" id="sec-cc54"><div class="u-clearfix u-sheet u-sheet-1">
             <a href="./" class="u-image u-logo u-image-1" data-image-width="2048" data-image-height="2048">

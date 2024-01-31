@@ -88,81 +88,39 @@
                 <a href="{{ route('ccb') }}" class="u-align-center u-border-none u-btn u-button-style u-custom-color-2 u-btn-1">Faça sua simulação</a>
             </div>
         </section>
-        <section class="u-clearfix u-section-2" id="sec-ee37">
-            <div class="u-clearfix u-sheet u-sheet-1">
-                <h3 class="u-text u-text-custom-color-2 u-text-1"> Alta rentabilidade com segurança</h3>
-                <p class="u-text u-text-2"> Sejam sete centavos ou sete milhões, o&nbsp;respeito e o zelo pelo seu capital&nbsp;são os mesmos. Não cobramos taxas ou tarifas, o que entregamos é&nbsp;alta remuneração com segurança.</p>
-            </div>
+        <section class="u-align-center u-clearfix u-white u-section-2" id="sec-c446">
+          <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+            <h1 class="u-text u-text-custom-color-2 u-text-default u-text-1">O que é CCB?</h1>
+            <p class="u-align-justify u-text u-text-2"> A Cédula de Crédito Bancário (CCB) é um produto de investimento que oferece uma oportunidade interessante para quem busca rentabilidade com segurança. Funciona assim: você empresta dinheiro para instituições financeiras e recebe em troca uma remuneração, geralmente na forma de juros.<br>
+              <br>O legal da CCB é que ela é flexível. Você pode escolher o prazo que se adequa melhor aos seus objetivos e, muitas vezes, tem a opção de contar com uma garantia real, como um imóvel, o que aumenta a segurança do investimento.
+            </p>
+            <a href="{{ route('investimentos') }}" class="u-border-none u-btn u-btn-rectangle u-button-style u-color-scheme-summer-time u-custom-color-2 u-radius-0 u-btn-1">Investimentos ​Disponíveis</a>
+          </div>
         </section>
-        <section class="u-clearfix u-section-3" id="sec-7d47">
-            <div class="u-clearfix u-sheet u-sheet-1">
-                <div class="custom-expanded u-list u-list-1">
-                    <div class="u-repeater u-repeater-1">
-                        <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-1">
-                            <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
-                                <img alt="" class="u-border-1 u-border-custom-color-2 u-expanded-width u-image u-image-default u-image-1" data-image-width="1080" data-image-height="1080" src="{{ asset('landingPage/img/products/cromo.jpeg') }}">
-                                <h4 class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-custom-color-2 u-text-1"> 
-                                    CCB&nbsp;<b>Azurita Cromo - 1,5% Ao mês - 6 meses&nbsp;&nbsp;</b>
-                                </h4>
-                                <p class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-2">
-                                    Prazo: 6 meses<br>Rentabilidade: 1,5% ao mês&nbsp;<br>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-1">
-                          <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
-                              <img alt="" class="u-border-1 u-border-custom-color-2 u-expanded-width u-image u-image-default u-image-1" data-image-width="1080" data-image-height="1080" src="{{ asset('landingPage/img/products/esmeralda.jpeg') }}">
-                              <h4 class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-custom-color-2 u-text-1"> 
-                                  CCB&nbsp;<b>Azurita Esmeralda - 2,0% ao mês - 12 meses&nbsp;&nbsp;</b>
-                              </h4>
-                              <p class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-2">
-                                  Prazo: 12 meses<br>Rentabilidade: 2,0% ao mês&nbsp;<br>
-                              </p>
-                          </div>
-                        </div>
-                        <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-1">
-                            <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
-                                <img alt="" class="u-border-1 u-border-custom-color-2 u-expanded-width u-image u-image-default u-image-1" data-image-width="1080" data-image-height="1080" src="{{ asset('landingPage/img/products/rubi.jpeg') }}">
-                                <h4 class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-custom-color-2 u-text-1"> 
-                                    CCB&nbsp;<b>Azurita Rubi - 2,2% ao mês - 18 meses&nbsp;&nbsp;</b>
-                                </h4>
-                                <p class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-2">
-                                    Prazo: 18 meses<br>Rentabilidade: 2,2% ao mês&nbsp;<br>
-                                </p>
-                            </div>
-                        </div> <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-1">
-                            <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
-                                <img alt="" class="u-border-1 u-border-custom-color-2 u-expanded-width u-image u-image-default u-image-1" data-image-width="1080" data-image-height="1080" src="{{ asset('landingPage/img/products/safira.jpeg') }}">
-                                <h4 class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-custom-color-2 u-text-1"> 
-                                    CCB&nbsp;<b>Azurita Safari - 2,4% ao mês - 24 meses&nbsp;&nbsp;</b>
-                                </h4>
-                                <p class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-2">
-                                    Prazo: 24 meses<br>Rentabilidade: 2,4% ao mês&nbsp;<br>
-                                </p>
-                            </div>
-                        </div> <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-1">
-                            <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
-                                <img alt="" class="u-border-1 u-border-custom-color-2 u-expanded-width u-image u-image-default u-image-1" data-image-width="1080" data-image-height="1080" src="{{ asset('landingPage/img/products/topazio.jpeg') }}">
-                                <h4 class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-custom-color-2 u-text-1"> 
-                                    CCB&nbsp;<b>Azurita Topázio - 2,6% ao mês - 30 meses&nbsp;&nbsp;</b>
-                                </h4>
-                                <p class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-text u-text-2">
-                                    Prazo: 30 meses<br>Rentabilidade: 2,6% ao mês&nbsp;<br>
-                                </p>
-                            </div>
-                        </div> 
+        <section class="skrollable u-align-center u-clearfix u-gradient u-parallax u-section-3" id="sec-763d">
+          <div class="u-clearfix u-sheet u-sheet-1">
+            <h1 class="u-align-center u-text u-text-body-alt-color u-text-default u-text-1">Conheça a Azurita</h1>
+            <p class="u-align-center u-text u-text-body-alt-color u-text-2"> Somos mais do que uma empresa de investimentos. Somos guardiões do seu patrimônio, dedicados a potencializar seus ganhos.</p>
+          </div>
+        </section>
+        <section class="u-clearfix u-gradient u-section-4" id="sec-7d47">
+          <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+            <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+              <div class="u-layout">
+                <div class="u-layout-row">
+                  <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
+                    <div class="u-container-layout u-valign-middle u-container-layout-1">
+                      <h3 class="u-text u-text-body-alt-color u-text-1"> Alta rentabilidade com segurança</h3>
+                      <p class="u-text u-text-body-alt-color u-text-2"> Na Azurita, você pode contar com a nossa equipe de especialistas, segurança bancária e jurídica a sua disposição. Sejam sete centavos ou sete milhões, o&nbsp;respeito e o zelo pelo seu capital&nbsp;são os mesmos. Não cobramos taxas ou tarifas, o que entregamos é&nbsp;alta remuneração com segurança.</p>
                     </div>
+                  </div>
+                  <div class="u-container-align-center u-container-style u-image u-image-contain u-layout-cell u-size-30 u-image-1" data-image-width="615" data-image-height="406">
+                    <div class="u-container-layout u-valign-middle u-container-layout-2"></div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-        <section class="u-align-center u-clearfix u-image u-parallax u-shading u-section-4" id="sec-763d" data-image-width="1280" data-image-height="848">
-            <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-                <h1 class="u-align-center u-text u-text-default u-text-1">Conheça a Azurita</h1>
-                <p class="u-align-center u-text u-text-2">
-                    Somos mais do que uma empresa de investimentos. Somos guardiões do seu patrimônio, dedicados a potencializar seus ganhos.
-                </p>
-                <a href="{{ route('sobre') }}" class="u-border-none u-btn u-btn-rectangle u-button-style u-color-scheme-summer-time u-custom-color-2 u-radius-0 u-btn-1">Quem somos</a>
-            </div>
+          </div>
         </section>
         <section class="u-align-center u-clearfix u-container-align-center-lg u-container-align-center-md u-container-align-center-xl u-white u-section-5" id="carousel_ab8d">
             <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-xl u-sheet-1">
@@ -219,48 +177,48 @@
             </div>
         </section>
         <section class="u-clearfix u-section-6" id="sec-d56a">
-            <div class="u-clearfix u-sheet u-sheet-1">
-              <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
-                <div class="u-layout">
-                  <div class="u-layout-row">
-                    <div class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-shading u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="1280" data-image-height="848">
-                      <div class="u-container-layout u-container-layout-1">
-                        <h2 class="u-text u-text-default u-text-1"> Facilitando o acesso aos investimentos</h2>
-                        <p class="u-text u-text-2"> Estamos empenhados em tornar a indústria de investimentos acessível a todos, eliminando barreiras. Não solicitamos comprovação de renda nem restringimos o acesso com base em histórico de crédito. Aqui, todos têm a oportunidade de investir e prosperar. Faça parte dessa democratização financeira.</p>
-                      </div>
+          <div class="u-clearfix u-sheet u-sheet-1">
+            <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+              <div class="u-layout" style="">
+                <div class="u-layout-row" style="">
+                  <div class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-shading u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="1280" data-image-height="848">
+                    <div class="u-container-layout u-container-layout-1">
+                      <h2 class="u-text u-text-default u-text-1"> Facilitando o acesso aos investimentos</h2>
+                      <p class="u-text u-text-2"> Estamos empenhados em tornar a indústria de investimentos acessível a todos, eliminando barreiras. Não solicitamos comprovação de renda nem restringimos o acesso com base em histórico de crédito. Aqui, todos têm a oportunidade de investir e prosperar. Faça parte dessa democratização financeira.</p>
                     </div>
-                    <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-white u-layout-cell-2">
-                      <div class="u-container-layout u-container-layout-2">
-                        <h2 class="u-text u-text-default u-text-3"> Acesso</h2>
-                        <p class="u-text u-text-4"> Você faz tudo 100% on-line, de maneira rápida e descomplicada, após sua avaliação e consideração pessoal, estará tudo pronto para contratar sua CCB e fazer seu aporte.</p>
-                      </div>
+                  </div>
+                  <div class="u-align-center u-container-style u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-white u-layout-cell-2">
+                    <div class="u-container-layout u-container-layout-2">
+                      <h2 class="u-text u-text-default u-text-3"> Acesso</h2>
+                      <p class="u-text u-text-4"> Você faz tudo 100% on-line, de maneira rápida e descomplicada, após sua avaliação e consideração pessoal, estará tudo pronto para contratar sua CCB e fazer seu aporte.</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
         </section>
         <section class="u-clearfix u-section-7" id="carousel_962d">
-            <div class="u-clearfix u-sheet u-sheet-1">
-              <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
-                <div class="u-layout">
-                  <div class="u-layout-row">
-                    <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-white u-layout-cell-1" src="">
-                      <div class="u-container-layout u-container-layout-1">
-                        <h2 class="u-text u-text-default u-text-1"> Segurança e rendimento para seu dinheiro</h2>
-                        <p class="u-text u-text-2"> A Cédula de&nbsp;Crédito Bancário (CCB)&nbsp;é um título de crédito emitido por pessoa física ou jurídica em favor de uma instituição financeira ou de entidade que se assemelhe. Acima de tudo, o&nbsp;Projeto de Lei número 8.987/17 autoriza a emissão da Cédula de Crédito Bancário Digital. Desta forma, a cédula eletrônica se equipara à cédula física.</p>
-                      </div>
+          <div class="u-clearfix u-sheet u-sheet-1">
+            <div class="data-layout-selected u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
+              <div class="u-layout" style="">
+                <div class="u-layout-row" style="">
+                  <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-white u-layout-cell-1" src="">
+                    <div class="u-container-layout u-container-layout-1">
+                      <h2 class="u-text u-text-default u-text-1"> Segurança e rendimento para seu dinheiro</h2>
+                      <p class="u-text u-text-2"> A Cédula de&nbsp;Crédito Bancário (CCB)&nbsp;é um título de crédito emitido por pessoa física ou jurídica em favor de uma instituição financeira ou de entidade que se assemelhe. Acima de tudo, o&nbsp;Projeto de Lei número 8.987/17 autoriza a emissão da Cédula de Crédito Bancário Digital. Desta forma, a cédula eletrônica se equipara à cédula física.</p>
                     </div>
-                    <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-shading u-size-30 u-size-xs-60 u-image-1" data-image-width="1280" data-image-height="853">
-                      <div class="u-container-layout u-container-layout-2">
-                        <h2 class="u-text u-text-default u-text-3"> Retorno</h2>
-                        <p class="u-text u-text-4"> A CCB, Cédula de crédito bancário, possui remuneração atrativa quando falamos de renda fixa, superando de 4 a 6 pontos percentuais acima da taxa Selic, entregando resultado de alta performance!</p>
-                      </div>
+                  </div>
+                  <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-shading u-size-30 u-size-xs-60 u-image-1" data-image-width="1280" data-image-height="853">
+                    <div class="u-container-layout u-container-layout-2">
+                      <h2 class="u-text u-text-default u-text-3"> Retorno</h2>
+                      <p class="u-text u-text-4"> A CCB, Cédula de crédito bancário, possui remuneração atrativa quando falamos de renda fixa, superando de 4 a 6 pontos percentuais acima da taxa Selic, entregando resultado de alta performance!</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
         </section>
         <section class="u-align-center u-clearfix u-grey-5 u-section-8" id="sec-c380">
             <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
@@ -283,7 +241,7 @@
                   </a>
                   <div class="u-accordion-pane u-align-left u-container-style u-shape-rectangle u-accordion-pane-2" id="accordion-4c47" aria-labelledby="link-accordion-4c47">
                     <div class="u-container-layout u-container-layout-2">
-                      <p class="u-text u-text-4"> Nossa oportunidade de investimento e diversificação de recursos destina-se a clientes com o perfil apropriado, e a CCB – Cédula de Crédito Bancário, é um produto regulado pelo Banco Central.<br>
+                      <p class="u-text u-text-4"> Nossa oportunidade de investimento e diversificação de recursos destina-se a clientes com o perfil apropriado, e a CCB – Cédula de Crédito Bancário, é um produto regulado pelo <a href="https://www.planalto.gov.br/ccivil_03/mpv/1925-15.htm" target="_blank">Banco Central</a>.<br>
                         <br>Esse instrumento financeiro representa um título extrajudicial de execução direta por meio de instituições financeiras, eliminando a necessidade de passar por Juízo.<br>
                         <br>Adicionalmente, todo o capital investido durante o processo de abertura, até a liquidação do lote, é mantido em uma conta escrow (conta garantia), impedindo o resgate durante esse período por parte da Azurita.<br>
                       </p>
@@ -296,7 +254,7 @@
                   </a>
                   <div class="u-accordion-pane u-container-style u-shape-rectangle u-accordion-pane-3" id="accordion-a910" aria-labelledby="link-accordion-a910">
                     <div class="u-container-layout u-valign-middle u-container-layout-3">
-                      <p class="u-text u-text-5"> A Azurita Capital comercializa a CCB – Cédula de Crédito Bancária, ao qual tem como regulador o Banco Central.</p>
+                      <p class="u-text u-text-5"> A Azurita Capital comercializa a <a href="https://www.planalto.gov.br/ccivil_03/mpv/1925-15.htm" target="_blank">CCB – Cédula de Crédito Bancária</a>, ao qual tem como regulador o Banco Central.</p>
                     </div>
                   </div>
                 </div>
@@ -306,17 +264,9 @@
                   </a>
                   <div class="u-accordion-pane u-align-left u-container-style u-shape-rectangle u-accordion-pane-4" id="a8b9" aria-labelledby="link-a8b9">
                     <div class="u-container-layout u-container-layout-4">
-                      <p class="u-custom-font u-font-montserrat u-text u-text-default u-text-6"> A CCB é um título extrajudicial regulamentado pelo&nbsp;<a class="in-cell-link u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" href="http://www.planalto.gov.br/ccivil_03/mpv/1925-15.htm" target="_blank" rel="noopener">Banco Central</a>, de execução direta através de instituição financeira, trazendo transparência e ações rápidas sem a necessidade de julgamento em juízo.Tal modalidade de negócios proporciona ao cliente investidor uma possibilidade de conexão e remuneração sobre seu capital aportado, tendo taxas remuneratórias mais atrativas, dentro de um ambiente regulado pelo Banco Central.
+                      <p class="u-custom-font u-font-montserrat u-text u-text-default u-text-6"> A <a href="https://www.planalto.gov.br/ccivil_03/mpv/1925-15.htm" target="_blank">CCB</a> é um título extrajudicial regulamentado pelo&nbsp;<a class="in-cell-link u-active-none u-border-none u-btn u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" href="http://www.planalto.gov.br/ccivil_03/mpv/1925-15.htm" target="_blank" rel="noopener">Banco Central</a>, de execução direta através de instituição financeira, trazendo transparência e ações rápidas sem a necessidade de julgamento em juízo.Tal modalidade de negócios proporciona ao cliente investidor uma possibilidade de conexão e remuneração sobre seu capital aportado, tendo taxas remuneratórias mais atrativas, dentro de um ambiente regulado pelo Banco Central.
                       </p>
                     </div>
-                  </div>
-                </div>
-                <div class="u-accordion-item">
-                  <a class="u-accordion-link u-active-custom-color-2 u-button-style u-custom-color-2 u-hover-custom-color-1 u-radius-14 u-accordion-link-5" id="link-50b3" aria-controls="50b3" aria-selected="false">
-                    <span class="u-accordion-link-text"> A Azurita cobra alguma taxa?</span><span class="u-accordion-link-icon u-icon u-text-white u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 42 42"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-f4c1"></use></svg><svg class="u-svg-content" viewBox="0 0 42 42" x="0px" y="0px" id="svg-f4c1" style="enable-background:new 0 0 42 42;"><polygon points="42,20 22,20 22,0 20,0 20,20 0,20 0,22 20,22 20,42 22,42 22,22 42,22 "></polygon></svg></span>
-                  </a>
-                  <div class="u-accordion-pane u-container-style u-shape-rectangle u-accordion-pane-5" id="50b3" aria-labelledby="link-50b3">
-                    <div class="u-container-layout u-container-layout-5"></div>
                   </div>
                 </div>
                 <div class="u-accordion-item">
@@ -387,11 +337,11 @@
               </div>
             </div>
         </section>
-        <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-custom-color-1 u-footer" id="sec-cc54"><div class="u-clearfix u-sheet u-sheet-1">
+        <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-gradient u-footer" id="sec-cc54"><div class="u-clearfix u-sheet u-sheet-1">
             <a href="./" class="u-image u-logo u-image-1" data-image-width="2048" data-image-height="2048">
               <img src="{{ asset('landingPage/img/logoicone.png') }}" class="u-logo-image u-logo-image-1">
             </a>
-            <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-1">AZURITA - 53.571.127/0001-27</p>
+            <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-body-alt-color u-text-1">AZURITA - 53.571.127/0001-27</p>
             <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
                 <a class="u-social-url" title="facebook" target="_blank" href="">
                     <span class="u-icon u-social-facebook u-social-icon u-icon-1">

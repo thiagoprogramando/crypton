@@ -109,15 +109,8 @@
                             src="">
                             <div class="u-container-layout u-container-layout-1">
                                 <h2 class="u-align-center u-text u-text-custom-color-2 u-text-1">Sobre nós</h2>
-                                <p class="u-align-left u-text u-text-2"> "Além da nossa dedicação em potencializar seus
-                                    ganhos, a Azurita Capital oferece um excepcional gerenciamento da CCB (Cédula de
-                                    Crédito Bancário). Nossa abordagem estratégica envolve a expertise na gestão
-                                    responsável desse título cambial, assegurando que cada investimento alcance seu
-                                    potencial máximo.<br>
-                                    <br>No âmbito do gerenciamento da CCB, destacamos nossa transparência e compromisso
-                                    em informar detalhadamente sobre os direitos de crédito, garantias e o monitoramento
-                                    dos fluxos de recursos até a liquidação final. Aqui, você encontra mais do que uma
-                                    gestão, encontra uma parceria sólida.
+                                <p class="u-align-left u-text u-text-2"> Além da nossa dedicação em potencializar seus ganhos, a Azurita Capital, oferece uma equipe de executivos com cerca de 10 anos de experiencia em gerenciamento de CCBs (Cédula de Crédito Bancário). Nossa abordagem estratégica envolve a expertise na gestão responsável desse título cambial, assegurando que cada investimento alcance seu potencial.<br>
+                                    <br>No âmbito do gerenciamento da nossa carteira de CCBs, destacamos nossa transparência e compromisso em informar detalhadamente sobre os direitos de crédito, garantias reais, e o monitoramento dos fluxos de recursos até a liquidação final. Aqui, você encontra mais do que uma gestora, terá sempre ao seu lado uma parceria sólida com segurança bancaria e jurídica para investidores e credores.
                                 </p>
                             </div>
                         </div>

@@ -127,27 +127,12 @@
     <section class="u-align-left u-clearfix u-custom-color-1 u-section-1" id="sec-1b39">
         <div class="u-clearfix u-sheet u-sheet-1">
             <div class="fr-view u-clearfix u-rich-text u-text u-text-1">
-                <h1 style="text-align: left;">Investir é transformar</h1>
+                <h1 style="text-align: left;">Quanto irá render?</h1>
                 <p id="isPasted">
-                    <span style="font-size: 1.25rem;">Investir é fundamental para um futuro financeiro sólido. Na
-                        Azurita Capital, entendemos essa importância, comprometendo-nos a preservar e fazer crescer seu
-                        capital. Oferecemos opções de investimento, incluindo a CCB, combinando segurança e
-                        rentabilidade. Personalizamos soluções para atender às suas metas específicas, guiando-o rumo ao
-                        sucesso financeiro. Conte com a Azurita Capital para transformar seus sonhos em
-                        realidade.&nbsp;</span>
+                    <span style="font-size: 1.25rem;">Em nossa plataforma, cada produto exibe prazos e rentabilidades claramente declarados na página correspondente. Além disso, oferecemos uma calculadora rentável, permitindo que você simule e planeje sua carteira de investimentos de forma transparente e conveniente, com prazos de resgate que se adequam a cada perfil de investimento.&nbsp;</span>
                 </p>
+                <a href="{{ route('registrer') }}" class="u-align-center u-border-none u-btn u-button-style u-custom-color-2 u-btn-1">Quero investir</a>
             </div>
-        </div>
-    </section>
-    <section class="u-align-center u-clearfix u-grey-5 u-section-2" id="sec-6da0">
-        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-            <h2 class="u-text u-text-default u-text-1">Quanto irá render?</h2>
-            <p class="u-text u-text-2"> Em nossa plataforma, cada produto exibe prazos e rentabilidades claramente
-                declarados na página correspondente. Além disso, oferecemos uma calculadora rentável, permitindo que
-                você simule e planeje sua carteira de investimentos de forma transparente e conveniente.</p>
-            <a href="{{ route('registrer') }}"
-                class="u-border-none u-btn u-btn-rectangle u-button-style u-color-scheme-summer-time u-custom-color-1 u-radius-0 u-btn-1">Quero
-                investir</a>
         </div>
     </section>
     <section class="u-clearfix u-section-3" id="sec-391d">
