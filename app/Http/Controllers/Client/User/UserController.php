@@ -78,39 +78,16 @@ class UserController extends Controller {
         $user->email    = $request->email;
         $user->password = bcrypt($request->password);
         $user->type     = 2;
-        $user->custumer = $this->custumer($request);
+        $user->postal_code  = $request->postal_code;
+        $user->street       = $request->street;
+        $user->number       = $request->number;
+        $user->locality     = $request->locality;
+        $user->city         = $request->city;
+        $user->region       = $request->region;
         $user->save();
 
         Auth::login($user);
         return redirect()->route('app');
-    }
-
-    private function custumer($request) {
-        $client = new Client();
-
-        $options = [
-            'headers' => [
-                'Content-Type' => 'application/json',
-                'access_token' => env('API_KEY_ASSAS'),
-            ],
-            'json' => [
-                'name'          => $request->name,
-                'cpfCnpj'       => $request->cpfcnpj,
-                'mobilePhone'   => $request->phone,
-                'email'         => $request->email,
-            ],
-            'verify' => false
-        ];
-
-        $response = $client->post(env('API_URL_ASSAS') . 'v3/customers', $options);
-        $body = (string) $response->getBody();
-        
-        if ($response->getStatusCode() === 200) {
-            $data = json_decode($body, true);
-            return $data['id'];
-        } else {
-            return false;
-        }
     }
 
     public function updateUser(Request $request) {

@@ -17,6 +17,7 @@ return new class extends Migration {
             $table->decimal('value', 10, 2);
             $table->decimal('value_profitability', 10, 2);
             $table->longText('url');
+            $table->longText('lineDigital');
             $table->date('date_output');
             $table->integer('invest_output');
             $table->timestamps();

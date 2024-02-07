@@ -8,7 +8,7 @@ use App\Models\Product;
 use App\Models\Wallet;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
 
 use GuzzleHttp\Client;
 
@@ -74,7 +74,7 @@ class WalletController extends Controller {
 
         $product = Product::find($request->product);
 
-        $charge = $this->createCharge($request->billingType, $request->value);
+        $charge = $this->createCharge($request->value, $product->name);
         if($charge) {
 
             $wallet                         = new Wallet();
@@ -88,6 +88,7 @@ class WalletController extends Controller {
             $wallet->invest_output          = $product->invest_output;
             $wallet->token                  = $charge['id'];
             $wallet->url                    = $charge['bankSlipUrl'];
+            $wallet->lineDigital            = $charge['lineDigital'];
             if ($wallet->save()) {
                 return true;
             }
@@ -96,36 +97,67 @@ class WalletController extends Controller {
         return false;
     }
 
-    private function createCharge($billingType, $value, ) {
+    private function createCharge($value, $reference) {
 
         $client = new Client();
 
         $options = [
             'headers' => [
                 'Content-Type' => 'application/json',
-                'access_token' => env('API_KEY_ASSAS'),
+                'Authorization' => 'Bearer '.env('API_AppKey_PAGBANK'),
             ],
             'json' => [
-                'customer'          => auth()->user()->custumer,
-                'billingType'       => $billingType,
-                'value'             => $value > 80 ? $value - 1 : $value,
-                'dueDate'           => now()->addDay(),
-                'description'       => 'CCB AZURITA',
+                'reference_id'      => $reference,
+                'description'       => 'INVESTIMENTO CCB - AZURITA',
+                'amount' => [
+                    'value'     => intval($value),
+                    'currency'  => 'BRL'
+                ],
+                'payment_method' => [
+                    'type'   => 'BOLETO',
+                    'boleto' => [
+                        'due_date' => now()->addDay()->format('Y-m-d'),
+                        "instruction_lines" => [
+                            "line_1" => "Investimento em CCB",
+                            "line_2" => "Via PagSeguro"
+                        ],
+                        'holder' => [
+                            'name'      => auth()->user()->name,
+                            'email'     => auth()->user()->email,
+                            'tax_id'    => "22222222222",
+                            'address'   => [
+                                "street"        => auth()->user()->street,
+                                "number"        => auth()->user()->number,
+                                "locality"      => auth()->user()->locality,
+                                "city"          => auth()->user()->city,
+                                "region"        => auth()->user()->region,
+                                "region_code"   => auth()->user()->region,
+                                "country"       => "Brasil",
+                                "postal_code"   => auth()->user()->postal_code
+                            ]
+                        ],
+                    ]
+                ],
+                'notification_urls' => [
+                    env('APP_URL')."api/webhook", 
+                ]
             ],
             'verify' => false
         ];
+        
 
-        $response = $client->post(env('API_URL_ASSAS') . 'v3/payments', $options);
+        $response = $client->post(env('API_URL_PAGBANK') . 'charges', $options);
         $body = (string) $response->getBody();
 
-        if ($response->getStatusCode() === 200) {
+        if ($response->getStatusCode() === 201) {
             $data = json_decode($body, true);
             return $dados['json'] = [
-                'id'            => $data['id'],
-                'bankSlipUrl'    => $data['bankSlipUrl'],
+                'id'             => $data['id'],
+                'bankSlipUrl'    => $data['links'][0]['href'],
+                'lineDigital'    => $data['payment_method']['boleto']['formatted_barcode'],
             ];
         } else {
-            return "Erro!";
+            return false;
         }
     }
 
@@ -138,13 +170,13 @@ class WalletController extends Controller {
     }
 
     public function webhook(Request $request) {
-        $jsonData = $request->json()->all();
-        
-        if ($jsonData['event'] === 'PAYMENT_CONFIRMED' || $jsonData['event'] === 'PAYMENT_RECEIVED') {
-            
-            $token = $jsonData['payment']['id'];
 
-            $wallet = Wallet::find($token);
+        $jsonData = $request->json()->all();
+        if ($jsonData['status'] == 'PAID') {
+            
+            $token = $jsonData['id'];
+
+            $wallet = Wallet::where('token', $token)->first();
             $wallet->status = 1;
             $wallet->save();
 

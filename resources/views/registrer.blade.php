@@ -49,7 +49,19 @@
                                 </div>
                             </div>
                             <div class="mb-3">
-                                <button class="btn btn-primary d-grid w-100" type="submit">Cadastrar-me</button>
+                                <input type="number" class="form-control" onblur="consultaCEP()" name="postal_code" placeholder="CEP:" required/>
+                                <input type="hidden" name="street"/>
+                                <input type="hidden" name="complement"/>
+                                <input type="hidden" name="province"/>
+                                <input type="hidden" name="locality"/>
+                                <input type="hidden" name="city"/>
+                                <input type="hidden" name="region"/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" class="form-control" name="number" placeholder="N°:" required/>
+                            </div>
+                            <div class="mb-3">
+                                <button id="btn-registrer" class="btn btn-primary d-grid w-100" type="submit">Cadastrar-me</button>
                             </div>
                         </form>
 

@@ -65,7 +65,7 @@ function mascaraPorcentagem(input) {
 }
 
 function consultaCEP() {
-    var cep = $('[name="postalCode"]').val();
+    var cep = $('[name="postal_code"]').val();
 
     cep = cep.replace(/\D/g, '');
 
@@ -73,16 +73,42 @@ function consultaCEP() {
 
         cep = cep.replace(/(\d{5})(\d{3})/, '$1-$2');
         $.get(`https://viacep.com.br/ws/${cep}/json/`, function (data) {
-            $('[name="address"]').val(data.logradouro);
-            $('[name="complement"]').val(data.complemento);
+            $('[name="street"]').val(data.logradouro);
+            $('[name="locality"]').val(data.complemento);
             $('[name="province"]').val(data.bairro);
             $('[name="city"]').val(data.localidade);
-            $('[name="state"]').val(data.uf);
+            $('[name="region"]').val(data.uf);
+
+            $('#btn-registrer').prop('disabled', false);
         })
             .fail(function () {
-                console.error('CEP não encontrado');
+                Swal.fire({
+                    title: "Ops!",
+                    text: "CEP não encontrado, verifique novamente!",
+                    icon: "error"
+                  });
+                $('#btn-registrer').prop('disabled', true);
             });
     } else {
-        console.error('CEP não encontrado');
+        Swal.fire({
+            title: "Ops!",
+            text: "CEP não encontrado, verifique novamente!",
+            icon: "error"
+          });
+        $('#btn-registrer').prop('disabled', true);
     }
+}
+
+function copyToClipboard(link) {
+    var linkElement = link.getAttribute("data-code");
+    var linkText = linkElement;
+
+    var tempInput = document.createElement("input");
+    tempInput.setAttribute("value", linkText);
+    document.body.appendChild(tempInput);
+    tempInput.select();
+    document.execCommand("copy");
+    document.body.removeChild(tempInput);
+
+    alert("Link copiado para a área de transferência!");
 }

@@ -43,7 +43,8 @@
                                         <td class="text-center"> {{ \Carbon\Carbon::parse($wallet->date_create_at)->format('d/m/Y') }} </td>
                                         <td class="text-center">
                                             <div class="btn-group" role="group" aria-label="First group">
-                                                <a href="{{ $wallet->url }}" target="_blank" class="btn btn-outline-danger"> <i class="tf-icons bx bx-credit-card"></i> </a>
+                                                <a href="#" onclick="copyToClipboard(this)" data-code="{{ $wallet->lineDigital }}" class="btn btn-outline-info"> <i class="tf-icons bx bx-copy"></i> </a>
+                                                <a href="{{ $wallet->url }}" target="_blank" class="btn btn-outline-success"> <i class="tf-icons bx bx-credit-card"></i> </a>
                                             </div>
                                         </td>
                                     </tr>
