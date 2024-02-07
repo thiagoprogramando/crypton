@@ -215,49 +215,82 @@
         </div>
     </section>
 
-    <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-custom-color-1 u-footer"
-        id="sec-cc54">
+    <section class="u-clearfix u-custom-color-1 u-section-9" id="sec-2bbd">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <a href="./" class="u-image u-logo u-image-1" data-image-width="2048" data-image-height="2048">
-                <img src="{{ asset('landingPage/img/logoicone.png') }}" class="u-logo-image u-logo-image-1">
-            </a>
-            <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-1">AZURITA -
-                53.571.127/0001-27</p>
-            <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
-                <a class="u-social-url" title="facebook" target="_blank" href="">
-                    <span class="u-icon u-social-facebook u-social-icon u-icon-1">
-                        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-0526"></use>
-                        </svg>
-                        <svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-0526">
-                            <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
-                            <path fill="#FFFFFF"
-                                d="M73.5,31.6h-9.1c-1.4,0-3.6,0.8-3.6,3.9v8.5h12.6L72,58.3H60.8v40.8H43.9V58.3h-8V43.9h8v-9.2c0-6.7,3.1-17,17-17h12.5v13.9H73.5z">
-                            </path>
-                        </svg>
-                    </span>
-                </a>
-                <a class="u-social-url" title="instagram" target="_blank" href="">
-                    <span class="u-icon u-social-icon u-social-instagram u-icon-2">
-                        <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
-                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7806"></use>
-                        </svg>
-                        <svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-7806">
-                            <circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle>
-                            <path fill="#FFFFFF"
-                                d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2 z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z">
-                            </path>
-                            <path fill="#FFFFFF"
-                                d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z">
-                            </path>
-                            <path fill="#FFFFFF"
-                                d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5c5.5,0,9.9,4.5,9.9,9.9V73.3z">
-                            </path>
-                        </svg>
-                    </span>
-                </a>
+          <div class="u-expanded-width u-list u-list-1">
+            <div class="u-repeater u-repeater-1">
+              <div class="u-container-style u-custom-item u-list-item u-repeater-item">
+                <div class="u-container-layout u-similar-container u-container-layout-1">
+                  <h3 class="u-text u-text-default u-text-1">Acesso rápido</h3>
+                  <ul class="u-text u-text-2">
+                    <li>Cadastre-se</li>
+                    <li>Acessar</li>
+                    <li>Comece a investir</li>
+                    <li>Blog</li>
+                    <li>Contato</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="u-container-style u-custom-item u-list-item u-repeater-item">
+                <div class="u-container-layout u-similar-container u-container-layout-2">
+                  <h3 class="u-text u-text-default u-text-3">Sobre</h3>
+                  <ul class="u-text u-text-4">
+                    <li>AZURITA&nbsp;</li>
+                    <li>53.571.127/0001-27</li>
+                    <li>azurita@azuritacapital.com.br</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="u-container-style u-custom-item u-list-item u-repeater-item">
+                <div class="u-container-layout u-similar-container u-container-layout-3">
+                  <h3 class="u-text u-text-default u-text-5">Legal</h3>
+                  <ul class="u-text u-text-6">
+                    <li>Termos de uso</li>
+                    <li>Política de privacidade</li>
+                    <li>Documentos</li>
+                    <li>CCB</li>
+                    <li>Bacen</li>
+                  </ul>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+        <div class="u-clearfix u-sheet">
+          <p style="font-size: 12px !important;" class="u-align-center-lg u-align-center-md u-align-center-xl u-text">
+            A AZURITA CAPITAL ("Azurita") como correspondente bancário, não presta consultoria  jurídica ou de investimento, e
+            o conteúdo e as informações disponibilizados na página da Azurita são exclusivamente informativos e não devem ser interpretados como 
+            assessoria financeira e/ou jurídica; não representam indicação, relatório de acompanhamento, fornecimento de estudos ou análises sobre 
+            valores mobiliários, aconselhamento de investimento, parecer jurídico, financeiro e/ou fiscal; nem mesmo recomendação financeira ou solicitação, 
+            oferta e/ou compromisso de compra ou venda de valores mobiliários, produtos e/ou quaisquer ativos.
+          </p>
+          <p style="font-size: 12px !important;" class="u-align-center-lg u-align-center-md u-align-center-xl u-text">
+            A Azurita não se responsabiliza por decisões de negócios e/ou investimentos que venham a ser realizados com base nas 
+            informações ou nos resultados oferecidos por meio deste website e não é responsável por qualquer prejuízo, 
+            direto e/ou indireto, eventualmente decorrente da utilização destas informações.
+          </p>
+        </div>
+    </section>
+    <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-gradient u-footer" id="sec-cc54"><div class="u-clearfix u-sheet u-sheet-1">
+        <a href="./" class="u-image u-logo u-image-1" data-image-width="2048" data-image-height="2048">
+          <img src="{{ asset('landingPage/img/logoicone.png') }}" class="u-logo-image u-logo-image-1">
+        </a>
+        <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-body-alt-color u-text-1">AZURITA - 53.571.127/0001-27</p>
+        <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
+            <a class="u-social-url" title="facebook" target="_blank" href="">
+                <span class="u-icon u-social-facebook u-social-icon u-icon-1">
+                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-0526"></use></svg>
+                    <svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-0526"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M73.5,31.6h-9.1c-1.4,0-3.6,0.8-3.6,3.9v8.5h12.6L72,58.3H60.8v40.8H43.9V58.3h-8V43.9h8v-9.2c0-6.7,3.1-17,17-17h12.5v13.9H73.5z"></path></svg>
+                </span>
+            </a>
+            <a class="u-social-url" title="instagram" target="_blank" href="">
+                <span class="u-icon u-social-icon u-social-instagram u-icon-2">
+                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7806"></use></svg>
+                    <svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-7806"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2 z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg>
+                </span>
+            </a>
+        </div>
+      </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>

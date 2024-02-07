@@ -148,11 +148,67 @@
             </div>
           </section>
           
-        <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-custom-color-1 u-footer" id="sec-cc54"><div class="u-clearfix u-sheet u-sheet-1">
+          <section class="u-clearfix u-custom-color-1 u-section-9" id="sec-2bbd">
+            <div class="u-clearfix u-sheet u-sheet-1">
+              <div class="u-expanded-width u-list u-list-1">
+                <div class="u-repeater u-repeater-1">
+                  <div class="u-container-style u-custom-item u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-container-layout-1">
+                      <h3 class="u-text u-text-default u-text-1">Acesso rápido</h3>
+                      <ul class="u-text u-text-2">
+                        <li>Cadastre-se</li>
+                        <li>Acessar</li>
+                        <li>Comece a investir</li>
+                        <li>Blog</li>
+                        <li>Contato</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="u-container-style u-custom-item u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-container-layout-2">
+                      <h3 class="u-text u-text-default u-text-3">Sobre</h3>
+                      <ul class="u-text u-text-4">
+                        <li>AZURITA&nbsp;</li>
+                        <li>53.571.127/0001-27</li>
+                        <li>azurita@azuritacapital.com.br</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="u-container-style u-custom-item u-list-item u-repeater-item">
+                    <div class="u-container-layout u-similar-container u-container-layout-3">
+                      <h3 class="u-text u-text-default u-text-5">Legal</h3>
+                      <ul class="u-text u-text-6">
+                        <li>Termos de uso</li>
+                        <li>Política de privacidade</li>
+                        <li>Documentos</li>
+                        <li>CCB</li>
+                        <li>Bacen</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-clearfix u-sheet">
+              <p style="font-size: 12px !important;" class="u-align-center-lg u-align-center-md u-align-center-xl u-text">
+                A AZURITA CAPITAL ("Azurita") como correspondente bancário, não presta consultoria  jurídica ou de investimento, e
+                o conteúdo e as informações disponibilizados na página da Azurita são exclusivamente informativos e não devem ser interpretados como 
+                assessoria financeira e/ou jurídica; não representam indicação, relatório de acompanhamento, fornecimento de estudos ou análises sobre 
+                valores mobiliários, aconselhamento de investimento, parecer jurídico, financeiro e/ou fiscal; nem mesmo recomendação financeira ou solicitação, 
+                oferta e/ou compromisso de compra ou venda de valores mobiliários, produtos e/ou quaisquer ativos.
+              </p>
+              <p style="font-size: 12px !important;" class="u-align-center-lg u-align-center-md u-align-center-xl u-text">
+                A Azurita não se responsabiliza por decisões de negócios e/ou investimentos que venham a ser realizados com base nas 
+                informações ou nos resultados oferecidos por meio deste website e não é responsável por qualquer prejuízo, 
+                direto e/ou indireto, eventualmente decorrente da utilização destas informações.
+              </p>
+            </div>
+        </section>
+        <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-gradient u-footer" id="sec-cc54"><div class="u-clearfix u-sheet u-sheet-1">
             <a href="./" class="u-image u-logo u-image-1" data-image-width="2048" data-image-height="2048">
               <img src="{{ asset('landingPage/img/logoicone.png') }}" class="u-logo-image u-logo-image-1">
             </a>
-            <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-1">AZURITA - 53.571.127/0001-27</p>
+            <p class="u-align-center-lg u-align-center-md u-align-center-xl u-text u-text-body-alt-color u-text-1">AZURITA - 53.571.127/0001-27</p>
             <div class="u-align-left u-social-icons u-spacing-10 u-social-icons-1">
                 <a class="u-social-url" title="facebook" target="_blank" href="">
                     <span class="u-icon u-social-facebook u-social-icon u-icon-1">

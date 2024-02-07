@@ -19,8 +19,57 @@
 
         <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
         <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+
+        <style>
+          .modal-backdrop {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(15, 27, 70, 0.5);
+            z-index: 1;
+          }
+
+          .modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            right: 0;
+            transform: translate(0, -50%);
+            width: 400px;
+            max-width: 80%;
+            background-color: #0F1B46;
+            padding: 20px;
+            z-index: 1000 !important;
+          }
+
+          .modal-content {
+            color: white;
+            overflow-y: auto;
+            max-height: calc(100vh - 50px);
+          }
+
+          .close {
+            color: white;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 24px;
+            cursor: pointer;
+          }
+
+          .close:hover {
+            color: #ccc;
+          }
+
+          .logo {
+            width: 100px; /* Ajuste conforme necessário */
+          }
+        </style>
     </head>
-    <body data-home-page="./" data-home-page-title="Página Inicial" data-path-to-root="./" data-include-products="true" class="u-body u-overlap u-overlap-contrast u-xl-mode" data-lang="pt">
+    <body onload="openModal()" data-home-page="./" data-home-page-title="Página Inicial" data-path-to-root="./" data-include-products="true" class="u-body u-overlap u-overlap-contrast u-xl-mode" data-lang="pt">
         <header class="u-clearfix u-header" id="sec-5095" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction="">
             <div class="u-clearfix u-sheet u-sheet-1">
                 <a href="./" class="u-image u-logo u-image-1" data-image-width="2048" data-image-height="2048">
@@ -336,7 +385,37 @@
                 </div>
               </div>
             </div>
+            <div class="u-clearfix u-sheet">
+              <p style="font-size: 12px !important;" class="u-align-center-lg u-align-center-md u-align-center-xl u-text">
+                A AZURITA CAPITAL ("Azurita") como correspondente bancário, não presta consultoria  jurídica ou de investimento, e
+                o conteúdo e as informações disponibilizados na página da Azurita são exclusivamente informativos e não devem ser interpretados como 
+                assessoria financeira e/ou jurídica; não representam indicação, relatório de acompanhamento, fornecimento de estudos ou análises sobre 
+                valores mobiliários, aconselhamento de investimento, parecer jurídico, financeiro e/ou fiscal; nem mesmo recomendação financeira ou solicitação, 
+                oferta e/ou compromisso de compra ou venda de valores mobiliários, produtos e/ou quaisquer ativos.
+              </p>
+              <p style="font-size: 12px !important;" class="u-align-center-lg u-align-center-md u-align-center-xl u-text">
+                A Azurita não se responsabiliza por decisões de negócios e/ou investimentos que venham a ser realizados com base nas 
+                informações ou nos resultados oferecidos por meio deste website e não é responsável por qualquer prejuízo, 
+                direto e/ou indireto, eventualmente decorrente da utilização destas informações.
+              </p>
+            </div>
         </section>
+
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <center><img src="{{ asset('template/img/backgrounds/logo.png') }}" alt="Logo" class="logo"></center>
+            <p style="font-size: 12px !important;">
+              A Azurita Capital é uma entidade devidamente autorizada pela Comissão de Valores Mobiliários (“CVM”) para fornecer consultoria em valores mobiliários, conforme estipulado pelo Ato Declaratório CVM n° 19.774, emitido em 27 de abril de 2022. É fundamental destacar que a emissão das Cédulas de Crédito Bancário – CCB (um título cambial de responsabilidade de instituições financeiras ou entidades autorizadas pelo Banco Central do Brasil, conforme definido no artigo 45-A da Lei nº 10.931, de 2 de agosto de 2004) ocorre de forma independente da atividade de consultoria em valores mobiliários. <br><br>
+              Essas Cédulas de Crédito Bancário – CCB são emitidas em nome de instituições financeiras ou entidades autorizadas pelo Banco Central do Brasil e servem para diversos propósitos: (i) representar direitos de crédito; (ii) garantir obrigações; ou (iii) monitorar fluxos de recursos e possíveis inadimplências até a liquidação final. É recomendável uma análise cuidadosa da Cédula de Crédito Bancário – CCB para obter mais detalhes. <br><br>
+              É importante ressaltar que a Cédula de Crédito Bancário – CCB não se qualifica como um valor mobiliário, de acordo com o artigo 2° da Lei nº 6.385, de 7 de dezembro de 1976. Portanto, ela não está sujeita à supervisão da CVM. Nesse contexto, a Azurita Capital esclarece que: (i) as Cédulas de Crédito Bancário – CCB não fazem parte de sua prestação de consultoria em valores mobiliários; a empresa também se abstém de recomendar esse tipo de investimento para aderir às regulamentações vigentes; (ii) a empresa não se envolve em transações relacionadas à Cédula de Crédito Bancário – CCB; (iii) não comercializa ou distribui valores mobiliários; e (iv) não oferece serviços de gestão de recursos de terceiros. <br><br>
+              Com base nessas informações, a Azurita Capital reitera seu compromisso em operar conforme as diretrizes regulatórias e destaca sua abordagem responsável em relação às Cédulas de Crédito Bancário – CCB, mantendo a transparência e a conformidade em suas operações.
+            </p>
+          </div>
+        </div>
+        
+        <div id="modalBackdrop" class="modal-backdrop"></div>
+
         <footer class="u-align-center-md u-align-center-sm u-align-center-xs u-clearfix u-footer u-gradient u-footer" id="sec-cc54"><div class="u-clearfix u-sheet u-sheet-1">
             <a href="./" class="u-image u-logo u-image-1" data-image-width="2048" data-image-height="2048">
               <img src="{{ asset('landingPage/img/logoicone.png') }}" class="u-logo-image u-logo-image-1">
@@ -358,5 +437,18 @@
             </div>
           </div>
         </footer>
+
+        <script>
+          function openModal() {
+  document.getElementById("myModal").style.display = "block";
+  document.getElementById("modalBackdrop").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+  document.getElementById("modalBackdrop").style.display = "none";
+}
+
+        </script>
     </body>
 </html>
