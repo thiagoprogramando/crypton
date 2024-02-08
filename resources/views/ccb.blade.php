@@ -143,7 +143,7 @@
                         <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
                             <div class="u-container-layout u-container-layout-1">
                                 <p class="u-text u-text-default u-text-1">
-                                  <img src="{{ asset('landingPage/img/chart.png') }}" alt="">
+                                  <img style="width: 100%;" src="{{ asset('landingPage/img/chart.png') }}" alt="">
                                 </p>
                             </div>
                         </div>
