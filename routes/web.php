@@ -12,6 +12,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () { return view('index'); })->name('welcome');
 Route::get('/investimentos', function () { return view('invest'); })->name('investimentos');
+Route::get('/termos', function () { return view('terms'); })->name('termos');
+Route::get('/privacidade', function () { return view('privacy'); })->name('privacidade');
 Route::get('/ccb', function () { return view('ccb'); })->name('ccb');
 Route::get('/sobre', function () { return view('about'); })->name('sobre');
 

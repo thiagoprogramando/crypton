@@ -85,66 +85,26 @@
         <section class="u-clearfix u-white u-section-1" id="sec-2e1e">
             <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
                 <br><br><br><br><br>
-              <h3 class="u-text u-text-custom-color-2 u-text-1"> Confira nossos investimentos</h3>
-              <p class="u-text u-text-2"> A Azurita Capital, atuando como sociedade por ações, destaca-se na intermediação de negócios, consultoria técnica, treinamento, desenvolvimento e gerenciamento profissional, além de prestação de serviços a instituições financeiras como correspondente bancário. Importante ressaltar que a Azurita ​Capital não é uma instituição financeira e não realiza operações de crédito.<br>
-                <br>Quanto à Cédula de Crédito Bancário (CCB), este título cambial é de responsabilidade de instituições financeiras ou entidades autorizadas pelo Banco Central do Brasil. A instituição financeira ou entidade autorizada, conforme o caso, é titular dos direitos de crédito representados pela CCB, presta garantia às obrigações representadas pela CCB ou realiza o serviço de monitoramento dos fluxos de recursos até a liquidação final. Recomenda-se a leitura atenta da CCB para informações detalhadas.<br>
-                <br>
-                <span style="font-style: italic; font-weight: 700;"><a href="https://normativos.bcb.gov.br/Lists/Normativos/Attachments/51096/Circ_4036_v2_P.pdf" target="_blank">Confira CCB</a></span>
-                <br>&nbsp;<br>É importante destacar que, de acordo com a legislação vigente, a CCB não se enquadra como valor mobiliário, não havendo esforço por parte da Azurita ​Capital ou de qualquer outra instituição em relação a esse título. A AZURITA não comercializa nem distribui qualquer valor mobiliário."
+              <h3 class="u-text u-text-custom-color-2 u-text-1">Política de Privacidade - Azurita</h3>
+              <p class="u-text u-text-2">
+                A Azurita está comprometida em proteger a privacidade dos usuários da sua plataforma de investimento. Esta Política de Privacidade descreve como coletamos, usamos e protegemos as informações pessoais dos usuários.
+                
+                <b>Informações Coletadas:</b> Coletamos informações pessoais dos usuários, como nome, endereço de e-mail, número de telefone e informações financeiras, quando se registram na plataforma. <br><br>
+                
+                <b>Uso das Informações: </b> Utilizamos as informações coletadas para fornecer serviços de investimento, processar transações, enviar comunicações de marketing e melhorar a plataforma. <br><br>
+                
+                <b>Compartilhamento de Informações: </b> Não compartilhamos informações pessoais dos usuários com terceiros, exceto quando necessário para processar transações ou cumprir obrigações legais. <br><br>
+                
+                <b>Segurança das Informações: </b> Implementamos medidas de segurança para proteger as informações pessoais dos usuários contra acesso não autorizado, alteração, divulgação ou destruição. <br><br>
+                
+                <b>Cookies:</b> Utilizamos cookies para melhorar a experiência do usuário na plataforma e coletar informações sobre o uso da plataforma. <br><br>
+                
+                <b>Alterações na Política de Privacidade:</b> Reservamo-nos o direito de modificar esta Política de Privacidade a qualquer momento. As alterações serão publicadas na plataforma e entrarão em vigor imediatamente. <br><br>
+
+                <b>Contato:</b> Se tiver alguma dúvida ou preocupação sobre esta Política de Privacidade, entre em contato conosco. <br><br>
+
+                Ao utilizar a plataforma de investimento da Azurita, você concorda com esta Política de Privacidade e com o processamento das suas informações pessoais conforme descrito acima. <br><br>
               </p>
-            </div>
-          </section>
-          <section class="u-align-center u-clearfix u-white u-section-2" id="sec-5759">
-            <div class="u-clearfix u-sheet u-sheet-1">
-              <div class="custom-expanded u-list u-list-1">
-                <div class="u-repeater u-repeater-1">
-                  <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-1">
-                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
-                      <img class="u-expanded-width u-image u-image-1" src="{{ asset('landingPage/img/products/cromo.jpeg') }}" data-image-width="1600" data-image-height="1600">
-                      <h4 class="u-align-left u-text u-text-custom-color-2 u-text-1"> CCB&nbsp;<b>Azurita - 1,5% Ao mês - 6 meses&nbsp;&nbsp;</b>
-                      </h4>
-                      <p class="u-align-left u-text u-text-2">Prazo: 6 meses<br>Rentabilidade: 1,5% ao mês&nbsp;<br>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-5">
-                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-5">
-                      <img class="u-expanded-width u-image u-image-5" src="{{ asset('landingPage/img/products/esmeralda.jpeg') }}" data-image-width="1280" data-image-height="853">
-                      <h4 class="u-align-left u-text u-text-custom-color-2 u-text-9"> CCB&nbsp;<b>Azurita - 2,0% Ao mês - 12 meses&nbsp;&nbsp;</b>
-                      </h4>
-                      <p class="u-align-left u-text u-text-10"> Prazo: 12 meses<br>Rentabilidade: 2,0% ao mês
-                      </p>
-                    </div>
-                  </div>
-                  <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-2">
-                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-2">
-                      <img class="u-expanded-width u-image u-image-2" src="{{ asset('landingPage/img/products/rubi.jpeg') }}" data-image-width="1280" data-image-height="853">
-                      <h4 class="u-align-left u-text u-text-custom-color-2 u-text-3"> CCB&nbsp;<b>Azurita - 2,2% Ao mês - 18 meses&nbsp;&nbsp;</b>
-                      </h4>
-                      <p class="u-align-left u-text u-text-4"> Prazo: 18 meses<br>Rentabilidade: 2,2% ao mês
-                      </p>
-                    </div>
-                  </div>
-                  <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-3">
-                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-3">
-                      <img class="u-expanded-width u-image u-image-3" src="{{ asset('landingPage/img/products/safira.jpeg') }}" data-image-width="1280" data-image-height="848">
-                      <h4 class="u-align-left u-text u-text-custom-color-2 u-text-5"> CCB&nbsp;<b>Azurita - 2,4% Ao mês - 24 meses&nbsp;&nbsp;</b>
-                      </h4>
-                      <p class="u-align-left u-text u-text-6"> Prazo: 24 meses<br>Rentabilidade: 2,4% ao mês
-                      </p>
-                    </div>
-                  </div>
-                  <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-4">
-                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-4">
-                      <img class="u-expanded-width u-image u-image-4" src="{{ asset('landingPage/img/products/topazio.jpeg') }}" data-image-width="1280" data-image-height="853">
-                      <h4 class="u-align-left u-text u-text-custom-color-2 u-text-7"><b></b> CCB&nbsp;<b>Azurita - 2,6% Ao mês - 30 meses&nbsp;&nbsp;</b>
-                      </h4>
-                      <p class="u-align-left u-text u-text-8"> Prazo: 30 meses<br>Rentabilidade: 2,6% ao mês
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </section>
           

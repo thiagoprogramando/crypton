@@ -85,66 +85,22 @@
         <section class="u-clearfix u-white u-section-1" id="sec-2e1e">
             <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
                 <br><br><br><br><br>
-              <h3 class="u-text u-text-custom-color-2 u-text-1"> Confira nossos investimentos</h3>
-              <p class="u-text u-text-2"> A Azurita Capital, atuando como sociedade por ações, destaca-se na intermediação de negócios, consultoria técnica, treinamento, desenvolvimento e gerenciamento profissional, além de prestação de serviços a instituições financeiras como correspondente bancário. Importante ressaltar que a Azurita ​Capital não é uma instituição financeira e não realiza operações de crédito.<br>
-                <br>Quanto à Cédula de Crédito Bancário (CCB), este título cambial é de responsabilidade de instituições financeiras ou entidades autorizadas pelo Banco Central do Brasil. A instituição financeira ou entidade autorizada, conforme o caso, é titular dos direitos de crédito representados pela CCB, presta garantia às obrigações representadas pela CCB ou realiza o serviço de monitoramento dos fluxos de recursos até a liquidação final. Recomenda-se a leitura atenta da CCB para informações detalhadas.<br>
-                <br>
-                <span style="font-style: italic; font-weight: 700;"><a href="https://normativos.bcb.gov.br/Lists/Normativos/Attachments/51096/Circ_4036_v2_P.pdf" target="_blank">Confira CCB</a></span>
-                <br>&nbsp;<br>É importante destacar que, de acordo com a legislação vigente, a CCB não se enquadra como valor mobiliário, não havendo esforço por parte da Azurita ​Capital ou de qualquer outra instituição em relação a esse título. A AZURITA não comercializa nem distribui qualquer valor mobiliário."
+              <h3 class="u-text u-text-custom-color-2 u-text-1"> Termos de Uso</h3>
+              <p class="u-text u-text-2">
+                Termos de Uso do Plataforma de Investimento em Cédula de Crédito Bancário - Azurita
+
+                Bem-vindo à Plataforma de Investimento do Azurita. Ao acessar e utilizar esta plataforma, você concorda com os seguintes termos e condições: <br> <br>
+                
+                <b>Eligibilidade:</b> Você deve ter pelo menos 18 anos e possuir capacidade legal para assinar um contrato para utilizar esta plataforma. <br><br>
+                <b>Investimentos em Cédula de Crédito Bancário (CCB):</b> Você reconhece que investir em CCBs envolve riscos, incluindo o risco de perder seu investimento. Você deve considerar seus objetivos de investimento, situação financeira e tolerância ao risco antes de investir. <br><br>
+                <b>Informações Acerto:</b> A informação fornecida na plataforma é para fins informativos apenas e não é destinada a fornecer conselhos profissionais. Não garantimos a precisão, completude ou atualidade da informação fornecida. <br><br>
+                <b>Propriedade Intelectual: </b> Todo conteúdo na plataforma, incluindo texto, gráficos, imagens e logotipos, é propriedade do Azurita e está protegido por direitos autoriais e outras leis de propriedade intelectual. Você não pode utilizar qualquer conteúdo na plataforma sem o nosso consentimento prévio. <br><br>
+                <b>Privacidade:</b> Estamos comprometidos com a proteção da sua privacidade e dos dados pessoais. Por favor, consulte nossa Política de Privacidade para obter mais informações. <br><br>
+                  Modificação dos Termos: Nos reservamos o direito de modificar estes Termos de Uso a qualquer momento sem aviso prévio. A sua continuação no uso da plataforma após qualquer alteração nos constitui sua aceitação dos Termos de Uso modificados. <br><br>
+                <b>Término:</b> Nos reservamos o direito de terminar seu acesso à plataforma a qualquer momento sem aviso prévio. <br><br>
+                <b>Jurisdição:</b> Estes Termos de Uso serão regidos e interpretados de acordo com as leis do país onde a plataforma é operada. <br><br>
+                  Se tiver alguma dúvida ou preocupação sobre estes Termos de Uso, por favor, entre em contato conosco
               </p>
-            </div>
-          </section>
-          <section class="u-align-center u-clearfix u-white u-section-2" id="sec-5759">
-            <div class="u-clearfix u-sheet u-sheet-1">
-              <div class="custom-expanded u-list u-list-1">
-                <div class="u-repeater u-repeater-1">
-                  <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-1">
-                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-1">
-                      <img class="u-expanded-width u-image u-image-1" src="{{ asset('landingPage/img/products/cromo.jpeg') }}" data-image-width="1600" data-image-height="1600">
-                      <h4 class="u-align-left u-text u-text-custom-color-2 u-text-1"> CCB&nbsp;<b>Azurita - 1,5% Ao mês - 6 meses&nbsp;&nbsp;</b>
-                      </h4>
-                      <p class="u-align-left u-text u-text-2">Prazo: 6 meses<br>Rentabilidade: 1,5% ao mês&nbsp;<br>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-5">
-                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-5">
-                      <img class="u-expanded-width u-image u-image-5" src="{{ asset('landingPage/img/products/esmeralda.jpeg') }}" data-image-width="1280" data-image-height="853">
-                      <h4 class="u-align-left u-text u-text-custom-color-2 u-text-9"> CCB&nbsp;<b>Azurita - 2,0% Ao mês - 12 meses&nbsp;&nbsp;</b>
-                      </h4>
-                      <p class="u-align-left u-text u-text-10"> Prazo: 12 meses<br>Rentabilidade: 2,0% ao mês
-                      </p>
-                    </div>
-                  </div>
-                  <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-2">
-                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-2">
-                      <img class="u-expanded-width u-image u-image-2" src="{{ asset('landingPage/img/products/rubi.jpeg') }}" data-image-width="1280" data-image-height="853">
-                      <h4 class="u-align-left u-text u-text-custom-color-2 u-text-3"> CCB&nbsp;<b>Azurita - 2,2% Ao mês - 18 meses&nbsp;&nbsp;</b>
-                      </h4>
-                      <p class="u-align-left u-text u-text-4"> Prazo: 18 meses<br>Rentabilidade: 2,2% ao mês
-                      </p>
-                    </div>
-                  </div>
-                  <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-3">
-                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-3">
-                      <img class="u-expanded-width u-image u-image-3" src="{{ asset('landingPage/img/products/safira.jpeg') }}" data-image-width="1280" data-image-height="848">
-                      <h4 class="u-align-left u-text u-text-custom-color-2 u-text-5"> CCB&nbsp;<b>Azurita - 2,4% Ao mês - 24 meses&nbsp;&nbsp;</b>
-                      </h4>
-                      <p class="u-align-left u-text u-text-6"> Prazo: 24 meses<br>Rentabilidade: 2,4% ao mês
-                      </p>
-                    </div>
-                  </div>
-                  <div class="u-align-center u-container-align-center-sm u-container-align-center-xs u-container-style u-list-item u-repeater-item u-shape-rectangle u-list-item-4">
-                    <div class="u-container-layout u-similar-container u-valign-bottom u-container-layout-4">
-                      <img class="u-expanded-width u-image u-image-4" src="{{ asset('landingPage/img/products/topazio.jpeg') }}" data-image-width="1280" data-image-height="853">
-                      <h4 class="u-align-left u-text u-text-custom-color-2 u-text-7"><b></b> CCB&nbsp;<b>Azurita - 2,6% Ao mês - 30 meses&nbsp;&nbsp;</b>
-                      </h4>
-                      <p class="u-align-left u-text u-text-8"> Prazo: 30 meses<br>Rentabilidade: 2,6% ao mês
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </section>
           

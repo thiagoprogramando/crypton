@@ -374,9 +374,9 @@
                     <div class="u-container-layout u-similar-container u-container-layout-3">
                       <h3 class="u-text u-text-default u-text-5">Legal</h3>
                       <ul class="u-text u-text-6">
-                        <li>Termos de uso</li>
-                        <li>Política de privacidade</li>
-                        <li>Documentos</li>
+                        <li><a href="{{ route('termos') }}">Termos de uso</a></li>
+                        <li><a href=" {{ route('privacidade') }} "> Política de privacidade </a></li>
+                        
                         <li>CCB</li>
                         <li>Bacen</li>
                       </ul>
