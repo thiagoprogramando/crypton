@@ -74,7 +74,7 @@ class WalletController extends Controller {
 
         $product = Product::find($request->product);
 
-        $charge = $this->createCharge($request->value, $product->name);
+        $charge = $this->createCharge($this->formatarValor($request->value), $product->name);
         if($charge) {
 
             $wallet                         = new Wallet();
@@ -110,7 +110,7 @@ class WalletController extends Controller {
                 'reference_id'      => $reference,
                 'description'       => 'INVESTIMENTO CCB - AZURITA',
                 'amount' => [
-                    'value'     => intval($value),
+                    'value'     => (float) $value,
                     'currency'  => 'BRL'
                 ],
                 'payment_method' => [
@@ -139,8 +139,8 @@ class WalletController extends Controller {
                     ]
                 ],
                 'notification_urls' => [
-                    env('APP_URL')."api/webhook", 
-                ]
+                    env('APP_URL') . 'api/webhook',
+                ],                
             ],
             'verify' => false
         ];
@@ -152,9 +152,11 @@ class WalletController extends Controller {
         if ($response->getStatusCode() === 201) {
             $data = json_decode($body, true);
             return $dados['json'] = [
-                'id'             => $data['id'],
-                'bankSlipUrl'    => $data['links'][0]['href'],
-                'lineDigital'    => $data['payment_method']['boleto']['formatted_barcode'],
+                'id'                => $data['id'],
+                'bankSlipUrl'       => $data['links'][0]['href'],
+                'lineDigital'       => $data['payment_method']['boleto']['formatted_barcode'],
+                'value'             => $data['amount']['value'],
+                'notification_urls' => $data['notification_urls'],
             ];
         } else {
             return false;
