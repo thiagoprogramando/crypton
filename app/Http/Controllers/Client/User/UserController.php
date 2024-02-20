@@ -81,7 +81,7 @@ class UserController extends Controller {
         $user->postal_code  = $request->postal_code;
         $user->street       = $request->street;
         $user->number       = $request->number;
-        $user->locality     = $request->locality;
+        $user->locality     = $request->city;
         $user->city         = $request->city;
         $user->region       = $request->region;
         $user->save();
