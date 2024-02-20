@@ -1,4 +1,5 @@
 function mascaraCpfCnpj(input) {
+    
     let value = input.value;
     value = value.replace(/\D/g, '');
 
@@ -17,6 +18,7 @@ function mascaraCpfCnpj(input) {
 }
 
 function mascaraData(dataInput) {
+
     let data = dataInput.value;
     data = data.replace(/\D/g, '');
     data = data.replace(/(\d{2})(\d)/, '$1-$2')
@@ -25,6 +27,7 @@ function mascaraData(dataInput) {
 }
 
 function mascaraTelefone(telefoneInput) {
+
     let telefone = telefoneInput.value;
     telefone = telefone.replace(/\D/g, '');
     telefone = telefone.replace(/(\d{2})(\d)/, '($1) $2');
@@ -33,8 +36,9 @@ function mascaraTelefone(telefoneInput) {
 }
 
 function mascaraReal(input) {
+
     let value = input.value;
-    
+
     value = value.replace(/\D/g, '');
     value = (parseInt(value) / 100).toFixed(2);
     value = value.replace('.', ',');
@@ -44,15 +48,12 @@ function mascaraReal(input) {
 }
 
 function mascaraPorcentagem(input) {
+
     let value = input.value;
 
-    // Remove caracteres não numéricos, exceto pontos
     value = value.replace(/[^\d.]/g, '');
-
-    // Se houver mais de um ponto, remova os extras
     value = value.replace(/(\..*)\./g, '$1');
 
-    // Formata como porcentagem
     if (value.includes('.')) {
         const parts = value.split('.');
         value = parts[0].replace(/\D/g, '') + '.' + parts.slice(1).join('');
@@ -60,11 +61,11 @@ function mascaraPorcentagem(input) {
         value = value.replace(/\D/g, '');
     }
 
-    // Atualiza o valor no input
     input.value = value;
 }
 
 function consultaCEP() {
+
     var cep = $('[name="postal_code"]').val();
 
     cep = cep.replace(/\D/g, '');
@@ -74,8 +75,6 @@ function consultaCEP() {
         cep = cep.replace(/(\d{5})(\d{3})/, '$1-$2');
         $.get(`https://viacep.com.br/ws/${cep}/json/`, function (data) {
             $('[name="street"]').val(data.logradouro);
-            $('[name="locality"]').val(data.complemento);
-            $('[name="province"]').val(data.bairro);
             $('[name="city"]').val(data.localidade);
             $('[name="region"]').val(data.uf);
 
@@ -86,7 +85,7 @@ function consultaCEP() {
                     title: "Ops!",
                     text: "CEP não encontrado, verifique novamente!",
                     icon: "error"
-                  });
+                });
                 $('#btn-registrer').prop('disabled', true);
             });
     } else {
@@ -94,12 +93,13 @@ function consultaCEP() {
             title: "Ops!",
             text: "CEP não encontrado, verifique novamente!",
             icon: "error"
-          });
+        });
         $('#btn-registrer').prop('disabled', true);
     }
 }
 
 function copyToClipboard(link) {
+
     var linkElement = link.getAttribute("data-code");
     var linkText = linkElement;
 

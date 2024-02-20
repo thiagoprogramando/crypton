@@ -50,12 +50,15 @@
                             </div>
                             <div class="mb-3">
                                 <input type="number" class="form-control" onblur="consultaCEP()" name="postal_code" placeholder="CEP:" required/>
-                                <input type="hidden" name="street"/>
-                                <input type="hidden" name="complement"/>
-                                <input type="hidden" name="province"/>
-                                <input type="hidden" name="locality"/>
-                                <input type="hidden" name="city"/>
-                                <input type="hidden" name="region"/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="street" placeholder="Endereço:"/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="city" placeholder="Cidade:"/>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" name="region" placeholder="Estado:"/>
                             </div>
                             <div class="mb-3">
                                 <input type="number" class="form-control" name="number" placeholder="N°:" required/>
